@@ -254,6 +254,9 @@ This work is dedicated to the public domain under CC0 1.0 Universal (“No Right
 
 Issues and Discussions on this repository are the primary channel. For anything requiring a direct line — specialist technical handoffs on F1-C / Option F, peer-review pathway coordination, observational-experiment engagement — contact details will be added to this section.
 
+https://x.com/Symmetism
+mailto: symmetism@gmail.com
+
 ---
 
 *The framework's best prospect lies in preserving ambition without claiming completion before it is earned. A single clean falsification forces structural revision; a single clean derivation closes a gate. That is the standard this project is trying to meet.*
