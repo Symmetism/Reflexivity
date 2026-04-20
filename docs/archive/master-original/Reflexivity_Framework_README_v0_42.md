@@ -1,5 +1,7 @@
 # The Reflexivity Framework — Release v0.42
 
+Full Release: https://github.com/Symmetism/Reflexivity/blob/main/docs/archive/master-original/Reflexivity_Framework_v0_42.md
+
 ## What this is
 
 A mathematical-physics research document that derives specific numerical predictions in fundamental physics from a single geometric object — the coset space `SO(4,1)/SO(3,1) = dS₄` with vacuum angle `v₀ = π/2` — and a single central result: the Stabilizer Theorem `{Q_A, H_S} = 0` for every generator `A` of the stabilizer subgroup `SO(3,1)`.
