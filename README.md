@@ -244,9 +244,9 @@ A formal `CITATION.cff` file will be added once the repository exits pre-build s
 
 ## License
 
-License to be declared. In the interim, the contents of this repository are made available for **reading, review, critique, academic discussion, and citation**. Please do not redistribute modified versions claiming to be the canonical framework; revisions happen through versioned releases in this repository.
+License
 
-A formal open-source license (likely CC BY 4.0 for prose and derivations, MIT or Apache 2.0 for any code that is added later) will be applied in a subsequent commit.
+This work is dedicated to the public domain under CC0 1.0 Universal (“No Rights Reserved”). To the extent permitted by law, the author has waived all copyright and related rights worldwide. You may copy, modify, distribute, and use this work, including for commercial purposes, without asking permission.
 
 ---
 
