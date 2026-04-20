@@ -4,6 +4,8 @@
 
 *Version 0.42 · Cutoff 2026-04-20 · Single free parameter `α_U` (F4, §29.13.4)*
 
+<!-- Math-rendering build 2026-04-21: display math → ```math fenced blocks (252); inline math → $`...`$ backtick-delimited (157). If this marker is visible in raw source, the math-fix build is live. -->
+
 ---
 
 ## Table of Contents
