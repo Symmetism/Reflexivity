@@ -652,7 +652,9 @@ Ten results pass all five referee criteria (internal math, no hidden parameters,
 
 **Unifying thread.** All trace to `SO(4,1)/SO(3,1)` at `v₀ = π/2` (uniquely selected per §12.48.7). The universal 2/3 is the single group-theoretic identity `dim(SU(3))/|T| = 8/12 = 2/3` projected through five sectors (canonical home: §"The Universal 2/3 Signature" below). The three physically critical denominators all factor through `dim(Stab) = 6`:
 
-$$|T| = 2 \cdot 6 = 12 \text{ (universal)}, \quad h(E_8) = 5 \cdot 6 = 30 \text{ (inflation)}, \quad \alpha_U^{-1} = 7 \cdot 6 = 42 \text{ (gauge)}$$
+```math
+|T| = 2 \cdot 6 = 12 \text{ (universal)}, \quad h(E_8) = 5 \cdot 6 = 30 \text{ (inflation)}, \quad \alpha_U^{-1} = 7 \cdot 6 = 42 \text{ (gauge)}
+```
 
 with multipliers (2, 5, 7) = (Wick Z₂, Platonic solid count, SU(3) β₀ one-loop). Platonic-solid sector organization per §25: icosahedron (|A₅|=60) → inflation; tetrahedron (4) → coset counts; octahedron (6) → spatial sector; cube (8) → SU(3) dimension.
 
@@ -725,7 +727,9 @@ These failures are kept visible as part of epistemic hygiene. A referee seeing R
 
 ## The so(4,1) Decomposition — 10 = 1 + 3 + 3 + 3
 
-$$\text{so}(4,1): \quad 10 = 1 + 3 + 3 + 3 = \text{Trunk} + \text{spatial pNGBs} + \text{rotations} + \text{boosts}$$
+```math
+\text{so}(4,1): \quad 10 = 1 + 3 + 3 + 3 = \text{Trunk} + \text{spatial pNGBs} + \text{rotations} + \text{boosts}
+```
 
 - **1** Trunk = radial mode P⁰ = U(1)_Y hypercharge (the one massive direction, the "−1" in every formula)
 - **3** spatial pNGBs P^i = SU(2)_L weak isospin generators = octahedral vertex triplet; labeling three neutrino generations per §12.33.1 (the pNGBs are bosonic Goldstone modes, not the neutrinos themselves)
@@ -753,7 +757,9 @@ The number **2/3** is the geometric signature of SO(4,1)/SO(3,1). It appears as 
 
 **All five collapse to a single group-theoretic identity (§25):**
 
-$$\boxed{\frac{2}{3} = \frac{\dim(\text{SU}(3))}{|T|} = \frac{8}{12}}$$
+```math
+\boxed{\frac{2}{3} = \frac{\dim(\text{SU}(3))}{|T|} = \frac{8}{12}}
+```
 
 where |T| = 12 is the tetrahedral rotation group order and 8 is the cube vertex count (= dim(SU(3))). Five previously-independent geometric routes to the same number reduce to one structural identity: the universal 2/3 is dim(SU(3))/|T|, the ratio of gluon count to tetrahedral group order. **Whenever a Reflexivity calculation produces a factor of 2/3, it is expressing this single structural fraction through different physical projections.**
 
@@ -770,7 +776,9 @@ A single geometric fact — **cos²(v₀/2) = cos²(π/4) = 1/2** — appears in
 
 **These are not four coincidences. They are one fact** — that v₀ = π/2 on the coset forces cos²(π/4) = 1/2 as the unique amplitude structure at the vacuum — **appearing in four different physical contexts**. §25 locates 1/2 in the |T|-fraction hierarchy:
 
-$$\boxed{\frac{1}{2} = \frac{\dim(\text{Stab})}{|T|} = \frac{6}{12}}$$
+```math
+\boxed{\frac{1}{2} = \frac{\dim(\text{Stab})}{|T|} = \frac{6}{12}}
+```
 
 where 6 = dim(Stab) = octahedron vertex count, sitting at the midpoint of the three universal ratios {1/3, 1/2, 2/3} = {4, 6, 8}/|T|. Any Reflexivity derivation that seems "off by a geometric factor" should first check whether the missing factor is 1/2 from v₀/2 — and that 1/2 is *structurally* the octahedral-over-tetrahedral ratio.
 
@@ -893,10 +901,18 @@ The three structural values (6, 8, 10) — floor, center, and ceiling — are in
 
 **Shell product:** `6 × 7 × 8 × 9 × 10 = 30,240`. This product admits multiple framework-integer factorizations:
 
-$$30{,}240 = 42 \times 720 = \alpha_U^{-1} \times |S_6| \quad (\text{chosen: multiplies gauge coupling by conservation-law permutations})$$
-$$30{,}240 = 12 \times 2{,}520 = |T| \times 7! \quad (\text{tetrahedral group} \times \text{7-element permutations})$$
-$$30{,}240 = 60 \times 504 \quad = |A_5| \times 504 \quad (\text{icosahedral} \times 504)$$
-$$30{,}240 = 24 \times 1{,}260 = |O| \times 1{,}260 \quad (\text{octahedral} \times 1{,}260)$$
+```math
+30{,}240 = 42 \times 720 = \alpha_U^{-1} \times |S_6| \quad (\text{chosen: multiplies gauge coupling by conservation-law permutations})
+```
+```math
+30{,}240 = 12 \times 2{,}520 = |T| \times 7! \quad (\text{tetrahedral group} \times \text{7-element permutations})
+```
+```math
+30{,}240 = 60 \times 504 \quad = |A_5| \times 504 \quad (\text{icosahedral} \times 504)
+```
+```math
+30{,}240 = 24 \times 1{,}260 = |O| \times 1{,}260 \quad (\text{octahedral} \times 1{,}260)
+```
 
 The `42 × |S₆|` decomposition is the one chosen for display because both factors are physically meaningful in the framework (α_U⁻¹ gauge coupling × symmetric group on the six conservation laws). The other decompositions are arithmetically equally valid but less immediately interpretable. This means the 42-via-palette identification is one consistency check among several possible ones; it supports but does not uniquely pick out 42. Note that the integer 42 appearing in the chosen factorization is the same 42 selected by empirical RGE matching in §12.52 — the factorization is a consistency check (from one specific decomposition), not an independent derivation of 42.
 
@@ -956,11 +972,15 @@ The tetrahedron–octahedron pair used in the Platonic Palette sits in the gauge
 
 **The tetrahedral group order decomposes structurally:**
 
-$$|T| = \dim(\text{coset}) + \dim(\text{Stab}) + \text{Cartan extra} = 4 + 6 + 2 = 12$$
+```math
+|T| = \dim(\text{coset}) + \dim(\text{Stab}) + \text{Cartan extra} = 4 + 6 + 2 = 12
+```
 
 where the "+2" is the Cartan complexification promoting SO(3,1) → SU(3) (§12.45). Equivalently:
 
-$$|T| = \dim(SU(3)) + \dim(\text{coset}) = 8 + 4 = 12$$
+```math
+|T| = \dim(SU(3)) + \dim(\text{coset}) = 8 + 4 = 12
+```
 
 SU(3) (gauge content) and the coset (spacetime dimensions) *partition* the tetrahedral orbit structure exactly, with no remainder.
 
@@ -984,11 +1004,17 @@ Every rotation-group order and every gauge-unification denominator in the framew
 
 **The three physically critical denominators and their multipliers.** Of all multiples of 6, the framework's rational constants distinguish exactly three — one per physical sector:
 
-$$|T| = 2 \cdot 6 = 12 \quad\to\quad \text{universal ratios (I_min, 2/3, 1/3)}$$
+```math
+|T| = 2 \cdot 6 = 12 \quad\to\quad \text{universal ratios }(I_{\min},\ 2/3,\ 1/3)
+```
 
-$$h(E_8) = 5 \cdot 6 = 30 \quad\to\quad \text{inflation observables (n_s = 29/30, r = 2/30²)}$$
+```math
+h(E_8) = 5 \cdot 6 = 30 \quad\to\quad \text{inflation observables }(n_s = 29/30,\ r = 2/30^2)
+```
 
-$$\alpha_U^{-1} = 7 \cdot 6 = 42 \quad\to\quad \text{gauge unification}$$
+```math
+\alpha_U^{-1} = 7 \cdot 6 = 42 \quad\to\quad \text{gauge unification}
+```
 
 Each multiplier is a framework-specific structural integer:
 - **2** — the Wick Z₂ signature, i.e. the fundamental parity/matter-antimatter symmetry of the framework (§12.42). Note: the integer 2 alone is small enough to admit several equally-valid framework readings — Wick Z₂ signature, dim(SU(2) fundamental) = 2, the index [|T| : 6] of the stabilizer within |T|, or simply the smallest non-trivial multiplier. The Wick-Z₂ reading is chosen here because it directly invokes the discrete framework structure that distinguishes universal ratios (Euclidean-Lorentzian signature); the other readings are consistent and not excluded. Unlike multipliers 5 and 7, the interpretation of 2 is not uniquely fixed by the framework.
@@ -1065,9 +1091,13 @@ The framework's two most prominent dimensionless integers — `α_U⁻¹ = 42` (
 
 **The observed pattern:**
 
-$$42 = \dim(\text{Stab}) \times |b_3| = 6 \times 7 \quad\text{(gauge unification)}$$
+```math
+42 = \dim(\text{Stab}) \times |b_3| = 6 \times 7 \quad\text{(gauge unification)}
+```
 
-$$\frac{43}{11} = \frac{\dim(\text{Stab}) \cdot |b_3| + 1}{\dim(\text{coset}) + |b_3|} = \frac{6 \cdot 7 + 1}{4 + 7} \quad\text{(effective DOF today)}$$
+```math
+\frac{43}{11} = \frac{\dim(\text{Stab}) \cdot |b_3| + 1}{\dim(\text{coset}) + |b_3|} = \frac{6 \cdot 7 + 1}{4 + 7} \quad\text{(effective DOF today)}
+```
 
 Both integers (42 in the numerator-interior and 43 = 42+1 in the numerator; 11 = dim(coset) + |b₃| in the denominator) decompose through the same three invariants in a specific combinatorial pattern: (a·c + 1)/(b + c) where a = dim(Stab), b = dim(coset), c = |b₃|.
 
@@ -1264,11 +1294,15 @@ A follow-up stress-test of the 26.B.5 architectural claim addressed the question
 
 **The algebraic reformulation.** Each vertex count corresponds to a framework-fundamental algebraic dimension that appears independently throughout the framework's derivations:
 
-$$\{4,\ 6,\ 8\} \;=\; \{\dim(\mathfrak{m}),\ \dim(\mathrm{Stab}),\ \dim(SU(3))\}$$
+```math
+\{4,\ 6,\ 8\} \;=\; \{\dim(\mathfrak{m}),\ \dim(\mathrm{Stab}),\ \dim(SU(3))\}
+```
 
 where 𝔪 = so(4,1)/so(3,1) is the broken subspace, Stab = so(3,1) is the unbroken subalgebra, and SU(3) is the gauge-sector dimension. The §25 palette structure then restates as:
 
-$$\left\{\frac{1}{3},\ \frac{1}{2},\ \frac{2}{3}\right\} \;=\; \left\{\frac{\dim(\mathfrak{m})}{2\cdot\dim(\mathrm{Stab})},\ \frac{\dim(\mathrm{Stab})}{2\cdot\dim(\mathrm{Stab})},\ \frac{\dim(SU(3))}{2\cdot\dim(\mathrm{Stab})}\right\}$$
+```math
+\left\{\frac{1}{3},\ \frac{1}{2},\ \frac{2}{3}\right\} \;=\; \left\{\frac{\dim(\mathfrak{m})}{2\cdot\dim(\mathrm{Stab})},\ \frac{\dim(\mathrm{Stab})}{2\cdot\dim(\mathrm{Stab})},\ \frac{\dim(SU(3))}{2\cdot\dim(\mathrm{Stab})}\right\}
+```
 
 with the denominator |T| = 12 = 2·dim(Stab) also framework-native (Rank 4's explicit Wick-signature factoring). The Platonic solid labels (tetrahedron/octahedron/cube) are organizational mnemonics; the content is algebraic.
 
@@ -1666,21 +1700,21 @@ The tau mass central value shifted from 1776.86 MeV (PDG 2024) to 1776.93 MeV (P
 
 Recomputing Q = (m_e + m_μ + m_τ) / (√m_e + √m_μ + √m_τ)² with the updated mass:
 
-$$
+```math
 Q_{\text{measured}} = 0.666\,665\,(\pm 5 \times 10^{-6})
-$$
+```
 
 where the uncertainty is propagated entirely from σ_{m_τ} = 0.09 MeV (electron and muon masses contribute at the 10⁻⁹ level). The framework's prediction is
 
-$$
+```math
 Q_{\text{pred}} = \frac{1}{3\cos^2(\pi/4)} = \frac{1}{3 \cdot \tfrac{1}{2}} = \frac{2}{3} = 0.666\,667.
-$$
+```
 
 **Deviation: 0.43σ** (down from 0.91σ in PDG 2024). The Koide-inverse tau-mass prediction is
 
-$$
+```math
 m_\tau^{\text{Koide}} = 1776.969\ \text{MeV},
-$$
+```
 
 which sits 0.43σ above the PDG 2025 measurement. This is the first lepton mass prediction of the framework and its agreement with direct measurement has improved with tighter data. §12.44 stands at grade **10/10** following §12.44.9's democracy-axis proof, with this empirical update noted.
 
@@ -1841,13 +1875,17 @@ Gleason's theorem (1957) establishes that any countably additive probability mea
 
 ### 12.0.4 The Explicit Form
 
-$$I(x, y) = |\langle\Psi(x), \Psi(y)\rangle_H|^2$$
+```math
+I(x, y) = |\langle\Psi(x), \Psi(y)\rangle_H|^2
+```
 
 where `Ψ: Ω → H` is the feature map into the representation Hilbert space `H` of G_seed. Special cases: `I(x, s₀)` = branching compatibility (Axiom A4, overlap with Seed); `I(s₀, s₀) = 1` (Seed self-compatible); `I_min` threshold in `|⟨Ψ(x), Ψ(s₀)⟩|² ≥ I_min`. The dual use of I in this document (branching constraint and interpersonal/cross-branch resonance) is the same functional at different argument positions.
 
 **Corrected Lagrangian.** The original `L = b_t(x) − λ(I_min − I(x,s₀))` had no velocity dependence, so `∂L/∂ẋ = 0` and the Noether current was trivially zero. Adding the explicit kinetic term:
 
-$$L(x, \dot{x}) = \tfrac{1}{2}g_{ij}\dot{x}^i\dot{x}^j + b_t(x) - \lambda\bigl(I_{\min} - |\langle\Psi(x),\Psi(s_0)\rangle|^2\bigr)$$
+```math
+L(x, \dot{x}) = \tfrac{1}{2}g_{ij}\dot{x}^i\dot{x}^j + b_t(x) - \lambda\bigl(I_{\min} - |\langle\Psi(x),\Psi(s_0)\rangle|^2\bigr)
+```
 
 Canonical momentum `p_i = g_ij ẋ^j`; action `S[γ] = ∫₀^T L dt`. Dimensionally consistent with normalization `(L_*, T_*)`, produces the Trunk equation of motion (§12.9.1). Step 1 of the Stabilizer Theorem rates 9/10 with the explicit action.
 
@@ -1961,7 +1999,9 @@ The minimal realization operator is then `Ω_real(t+1) = Ω_real(t) ∪ {x ∈ �
 
 **Variational definition of the Trunk (preferred formulation):**
 
-$$\tau^*(t) = \arg\min_\gamma \left\{ S[\gamma] = \int_\gamma L(x, \dot{x})\, d\ell \right\} \quad \text{subject to} \quad I(\gamma, s_0) \geq I_{\min}$$
+```math
+\tau^*(t) = \arg\min_\gamma \left\{ S[\gamma] = \int_\gamma L(x, \dot{x})\, d\ell \right\} \quad \text{subject to} \quad I(\gamma, s_0) \geq I_{\min}
+```
 
 where `b_t(x) = κ [g_t(x)]^η V_b(φ̂)` is the branching drive, `λ > 0` the Lagrange multiplier (compatibility enforcement), `|⟨Ψ(x), Ψ(s₀)⟩|² ≥ I_min` the explicit Born-rule constraint. This replaces and subsumes the argmax formulation. The Euler-Lagrange equations for this Lagrangian give equations of motion for Trunk propagation; the Hamilton-Jacobi equation `dS/dt + H(x, dS/dx) = 0` governs the full field of optimal paths. The Trunk is the geodesic in the Riemannian metric induced by the branching drive.
 
@@ -1983,7 +2023,9 @@ The thresholds `c_min` and `r_min` denote the minimum values required for Tree a
 
 The Reflexivity framework has no internal bias between hierarchy/efficiency/robustness for C or between mutual-information/predictive-accuracy/self-modeling for R. The symmetry-first ontology forces symmetric weights at the calibration-neutral point:
 
-$$\boxed{\alpha = \beta = \gamma = \frac{1}{3}, \qquad w_1 = w_2 = w_3 = \frac{1}{3}}$$
+```math
+\boxed{\alpha = \beta = \gamma = \frac{1}{3}, \qquad w_1 = w_2 = w_3 = \frac{1}{3}}
+```
 
 This is the maximum-entropy choice under the constraint Σw = 1 — consistent with the M(t) = Shannon entropy identification (§12.4). Model-class specific calibration may shift these weights, but the framework-neutral default is equal weighting.
 
@@ -1991,7 +2033,9 @@ This is the maximum-entropy choice under the constraint Σw = 1 — consistent w
 
 The thresholds c_min, r_min should be framework-structural, not arbitrary. The natural choice comes from the universal 1/2 (I_min = cos²(v₀/2) = 1/2, §12.34): a branching structure qualifies as a Tree iff it exceeds the framework's own minimum coherence signature:
 
-$$c_{\min} = I_{\min} = \frac{1}{2}, \qquad r_{\min} = I_{\min}^2 = \frac{1}{4}$$
+```math
+c_{\min} = I_{\min} = \frac{1}{2}, \qquad r_{\min} = I_{\min}^2 = \frac{1}{4}
+```
 
 The c_min = 1/2 mirrors the FS minimum overlap; the r_min = 1/4 comes from requiring the Recursive Closure to model BOTH the branching dynamics AND itself (two compatibility constraints in series, each contributing factor 1/2).
 
@@ -2608,7 +2652,9 @@ Six competing frameworks were tested against the prediction λ_TH = (128/81)(H_i
 
 **Critical finding — the mathematical relationship:**
 
-$$\frac{128}{81} = \frac{64}{27} \times \frac{2}{3}$$
+```math
+\frac{128}{81} = \frac{64}{27} \times \frac{2}{3}
+```
 
 Starobinsky R+R² inflation independently predicts λ_TH = (2/3)(H_inf/M_Pl)² = 6.67 × 10⁻¹¹ from the Weyl rescaling factor of R². The Reflexivity value 128/81 exceeds Starobinsky's 2/3 by **a factor of 64/27 ≈ 2.37** (i.e., 128/81 = (64/27) × (2/3)). The enhancement factor 64/27 is the Fubini-Study curvature correction specific to the SO(4,1)/SO(3,1) coset geometry combined with the octahedral Schur (pNGB-triplet) vertex normalization of §12.25.11.
 
@@ -2690,7 +2736,9 @@ By the Heisenberg equation: dQ̂_A/dt = (i/ℏ)[Ĥ,Q̂_A] = 0.
 
 Concretely, the Reflexivity wavefunction Ψ: dS₄ → ℙ(ℋ) is a map from the classical base to the projective Hilbert space. At each point x ∈ dS₄, Ψ(x) ∈ ℙ(ℋ). Kibble's theorem then gives, at each x:
 
-$$Q_A(x) = \langle \Psi(x), A\, \Psi(x) \rangle_{\rm FS} \quad \text{(Kibble's formula on } \mathbb{P}(\mathcal{H})\text{)}$$
+```math
+Q_A(x) = \langle \Psi(x), A\, \Psi(x) \rangle_{\rm FS} \quad \text{(Kibble's formula on } \mathbb{P}(\mathcal{H})\text{)}
+```
 
 The conservation $\{Q_A, H_S\} = 0$ follows pointwise from Kibble's theorem on ℙ(ℋ), then integrates over dS₄ without requiring dS₄ itself to be Kähler.
 
@@ -2774,12 +2822,15 @@ Spatial pNGBs:      m²_pNGB  = 0 (shift symmetry) →  C₂(pNGB)  = 0
 
 Any coupling of the Trunk field ρ to SM scalars (the Higgs H) must respect Stab(s₀) = SO(3,1) conservation. The allowed operator is:
 
-$$\mathcal{L} \supset \lambda_{TH}\,
-ho^2\,H^\dagger H$$
+```math
+\mathcal{L} \supset \lambda_{TH}\,\rho^2\,H^\dagger H
+```
 
 The coupling constant is fixed by the Casimir eigenvalue × (inflation scale / cutoff)²:
 
-$$\boxed{\lambda_{TH} = \frac{128}{81} \times \left(\frac{H_{\inf}}{M_{\rm Pl}}\right)^2 = \frac{128}{81} \times 10^{-10} = 1.58 \times 10^{-10}}$$
+```math
+\boxed{\lambda_{TH} = \frac{128}{81} \times \left(\frac{H_{\inf}}{M_{\rm Pl}}\right)^2 = \frac{128}{81} \times 10^{-10} = 1.58 \times 10^{-10}}
+```
 
 This is a **specific, dimensionless numerical prediction** from the theorem. It does not depend on any free parameter — both 128/81 (from Casimir/coset geometry) and H_inf/M_Pl (from CMB normalization) are fixed.
 
@@ -2787,7 +2838,9 @@ This is a **specific, dimensionless numerical prediction** from the theorem. It 
 
 The spatial pNGBs (massless, shift-symmetric) couple to gauge fields via the standard pNGB derivative interaction. The decay constant is f_a = H_inf (the Reflexivity cutoff). The axion-photon coupling:
 
-$$\boxed{g_{a\gamma\gamma} = \frac{\alpha}{8\pi f_a} = \frac{\alpha}{8\pi H_{\inf}} \approx 2.4 \times 10^{-18}\,{\rm GeV}^{-1}}$$
+```math
+\boxed{g_{a\gamma\gamma} = \frac{\alpha}{8\pi f_a} = \frac{\alpha}{8\pi H_{\inf}} \approx 2.4 \times 10^{-18}\,{\rm GeV}^{-1}}
+```
 
 **Numerical inputs:** α = 1/137, H_inf = 10⁻⁵ M_Pl = 1.22 × 10¹⁴ GeV (CMB-normalization convention using the full Planck mass M_Pl = 1.22×10¹⁹ GeV; downstream RGE-matching calculations in §12.49–12.52 use the slightly different reduced-Planck-mass value H_inf ≈ 1.93×10¹³ GeV where the CMB coincides with the SM unification scale — see Result #15 in the prediction table and §12.45.5 for the "two scales coincide" discussion).
 
@@ -2816,7 +2869,9 @@ These are new predictions from the Stabilizer Theorem. They do not appear in the
 
 **The limit.** Consider the static patch of dS₄ — the region inside the cosmological horizon of an observer at the vacuum. In the static patch, P^0 is timelike and the Killing equation £_{P^0} g = 0 holds locally. Take the limit H → 0 with the proper distance r from the observer held fixed. The de Sitter metric
 
-$$ds^2 = -(1 - H^2 r^2)\,dt^2 + (1 - H^2 r^2)^{-1}\,dr^2 + r^2\,d\Omega_2^2$$
+```math
+ds^2 = -(1 - H^2 r^2)\,dt^2 + (1 - H^2 r^2)^{-1}\,dr^2 + r^2\,d\Omega_2^2
+```
 
 reduces in this limit to flat Minkowski space ds² = −dt² + dr² + r² dΩ². The de Sitter isometry group SO(4,1) contracts (in the Inönü–Wigner sense) to the Poincaré group ISO(3,1) = SO(3,1) ⋉ ℝ⁴, with the four broken generators P^μ becoming the four exact translations of Minkowski space. In this contraction:
 
@@ -2827,7 +2882,9 @@ In Minkowski space, the four P^μ are exact Killing vectors and the Berry charge
 
 **Quantitative bound.** For a state localized within the static patch at proper distance r ≪ H⁻¹, the failure of P^0 to be a global Killing vector contributes an error to dQ_{P^0}/dt of order H²r² × (typical energy scale). For a laboratory experiment at r ~ 1 m and H ≈ 10⁻²⁶ m⁻¹ (cosmological), this gives
 
-$$\frac{\delta E}{E} \lesssim H^2 r^2 \approx 10^{-52}$$
+```math
+\frac{\delta E}{E} \lesssim H^2 r^2 \approx 10^{-52}
+```
 
 — far below any conceivable measurement precision. For a galactic-scale measurement (r ~ 10²¹ m), the bound becomes ~10⁻¹⁰, still negligible. Only at cosmological-horizon scales (r ~ H⁻¹) does the energy non-conservation become order-unity, and at that point the standard de Sitter QFT result takes over: the framework's prediction reduces to the well-known statement that energy is not a globally conserved quantity in pure de Sitter.
 
@@ -2894,7 +2951,9 @@ This is the first quantitative condition for Generative Perfection. The Seed is 
 
 The full branching drive for `β=1, η=2`: `b_t(ρ) = κ λ_b (L_*A)² ρ²(1 − A²ρ²)²`. Critical points via `dB/dρ = 2ρ(1 − A²ρ²)(1 − 3A²ρ²) = 0` give three solutions: `ρ = 0` (Seed), `ρ = 1/A` (zero), and `ρ = 1/(A√3)` (maximum of `b_t`). The vacuum of `V_eff` is at the maximum of `b_t` (balancing the compatibility term):
 
-$$v_0 = 1/(A\sqrt{3}) \approx 0.577/A \quad\text{(state space units, }\lambda \to 0\text{ limit)}$$
+```math
+v_0 = 1/(A\sqrt{3}) \approx 0.577/A \quad\text{(state space units, }\lambda \to 0\text{ limit)}
+```
 
 For small λ the vacuum shifts slightly but remains finite. **Stability:** at `ρ = v₀`, `d²V_eff/dρ²|_{v₀} = −b''_t(v₀) − 2λc > 0` since `b''_t(v₀) < 0` (maximum of `b_t`) and the tiny λ correction (~10⁻¹²²) does not flip the sign. Genuine stable minimum. **[CALC] ✓**
 
@@ -3194,7 +3253,9 @@ By Helgason's theorem, so(4,1)/so(3,1) is a reductive symmetric space, and m ≅
 
 **Step 4 — Killing form computation.** For so(p, q) acting on its defining representation, the Killing form satisfies K(X, Y) = (p + q − 2) · Tr(X · Y). For so(4, 1), the multiplier is 3. The diagonal Killing norms of the broken generators are:
 
-$$K(M_{A4}, M_{A4}) = -6 \cdot \eta_{AA} \cdot \eta_{44} = -6 \cdot \eta_{AA}$$
+```math
+K(M_{A4}, M_{A4}) = -6 \cdot \eta_{AA} \cdot \eta_{44} = -6 \cdot \eta_{AA}
+```
 
 (factoring out the standard sign convention). With η₀₀ = −1 and η₁₁ = η₂₂ = η₃₃ = +1:
 
@@ -3241,11 +3302,15 @@ Self-duality (§12.48.7) uniquely selects so(4,1), which uniquely gives (1, 3) o
 
 The Killing form restricted to the unbroken subalgebra h = so(3,1) has trace zero:
 
-$$\text{tr}(K|_h) = \underbrace{3 \times (+6)}_{\text{3 compact rotations } M_{ij}} + \underbrace{3 \times (-6)}_{\text{3 non-compact boosts } M_{0i}} = 0$$
+```math
+\text{tr}(K|_h) = \underbrace{3 \times (+6)}_{\text{3 compact rotations } M_{ij}} + \underbrace{3 \times (-6)}_{\text{3 non-compact boosts } M_{0i}} = 0
+```
 
 The unbroken symmetry directions carry **zero signature asymmetry**. All Lorentzian (1, 3) signature — which is the Mystery 2 result of §12.11.5 — is carried by the broken subspace m, with contribution −12 (one +6 boost and three −6 rotations). The full algebra so(4,1) sums to the same −12, as it must by linearity (h ⊕ m = g):
 
-$$\text{tr}(K|_g) = \text{tr}(K|_h) + \text{tr}(K|_m) = 0 + (-12) = -12$$
+```math
+\text{tr}(K|_g) = \text{tr}(K|_h) + \text{tr}(K|_m) = 0 + (-12) = -12
+```
 
 **Uniqueness among Lorentz algebras.** The vanishing trace on so(n−1, 1) requires the rotation count (n−1)(n−2)/2 to equal the boost count n−1, giving n = 4 uniquely:
 
@@ -3294,13 +3359,17 @@ Reversing from vacuum (`v₀ = π/2`) back toward Seed (`v = 0`) along the Trunk
 
 The framework gives the Goldstone mass along the Trunk trajectory (§12.11.4):
 
-$$m^2_G(v) = V''(v) = -2\lambda \cos(2v)$$
+```math
+m^2_G(v) = V''(v) = -2\lambda \cos(2v)
+```
 
 (Sign convention: V'' > 0 at the stable vacuum v₀ = π/2 requires the factor −2λ, not +2λ. This matches the explicit sign in the P3-2 derivation: m²(v₀ = π/2) = −2λ cos(π) = +2λ > 0 is the stable pNGB mass at the vacuum.)
 
 Integrating twice with boundary conditions V'(0) = V'(π/2) = 0 (both endpoints are critical points) and fixing V(π/2) = 0 as energy reference:
 
-$$\boxed{V(v) = \lambda \cos^2(v)}$$
+```math
+\boxed{V(v) = \lambda \cos^2(v)}
+```
 
 Verification:
 
@@ -3318,21 +3387,29 @@ The framework's existing "Seed is tachyonic" statement (§12.10.3) is now an exp
 
 Writing v(t, x) = 0 + δv(t, x) and expanding the Klein-Gordon equation to linear order on dS₄ (with FRW-type cosmic expansion at rate H):
 
-$$\ddot{\delta v} + 3H \dot{\delta v} - \nabla^2 \delta v + V''(0) \cdot \delta v = 0$$
+```math
+\ddot{\delta v} + 3H \dot{\delta v} - \nabla^2 \delta v + V''(0) \cdot \delta v = 0
+```
 
 Substituting V''(0) = −2H² (from λ = H²):
 
-$$\ddot{\delta v} + 3H \dot{\delta v} - \nabla^2 \delta v - 2H^2 \delta v = 0$$
+```math
+\ddot{\delta v} + 3H \dot{\delta v} - \nabla^2 \delta v - 2H^2 \delta v = 0
+```
 
 The middle term 3H δ̇v is the **Hubble friction** from dS₄ expansion — absent in flat-space linearization, essential in dS₄. The final term is the tachyonic negative-mass contribution.
 
 For super-horizon modes (∇² ≈ 0 because the wavelength exceeds the Hubble radius), the dispersion relation is:
 
-$$\omega^2 + 3H\omega - 2H^2 = 0$$
+```math
+\omega^2 + 3H\omega - 2H^2 = 0
+```
 
 Quadratic formula:
 
-$$\boxed{\omega_\pm = \frac{-3 \pm \sqrt{17}}{2}\, H}$$
+```math
+\boxed{\omega_\pm = \frac{-3 \pm \sqrt{17}}{2}\, H}
+```
 
 The **growing mode (the first branch)** is `ω₊ = (−3 + √17)/2 · H ≈ +0.562 H`; the decaying mode is `ω₋ = (−3 − √17)/2 · H ≈ −3.562 H`.
 
@@ -3344,11 +3421,15 @@ The first branch grows at rate ≈ 0.562 H on dS₄. Without Hubble friction (fl
 
 For a scalar of mass² m² on dS₄ with d = 4, the standard conformal weights are:
 
-$$\Delta_\pm = \frac{d-1}{2} \pm \sqrt{\left(\frac{d-1}{2}\right)^2 - \frac{m^2}{H^2}} = \frac{3}{2} \pm \sqrt{\frac{9}{4} - \frac{m^2}{H^2}}$$
+```math
+\Delta_\pm = \frac{d-1}{2} \pm \sqrt{\left(\frac{d-1}{2}\right)^2 - \frac{m^2}{H^2}} = \frac{3}{2} \pm \sqrt{\frac{9}{4} - \frac{m^2}{H^2}}
+```
 
 For the Seed (m² = −2H²):
 
-$$\Delta_\pm^{\rm Seed} = \frac{3}{2} \pm \sqrt{\frac{9}{4} + 2} = \frac{3 \pm \sqrt{17}}{2}$$
+```math
+\Delta_\pm^{\rm Seed} = \frac{3}{2} \pm \sqrt{\frac{9}{4} + 2} = \frac{3 \pm \sqrt{17}}{2}
+```
 
 Numerically: Δ₊ ≈ 3.562, Δ₋ ≈ −0.562.
 
@@ -3436,7 +3517,9 @@ Consolidating the Seed-side structure against the known vacuum values:
 
 ### 12.14.A Full Action (4D field theory) — canonical at §12.0.4, §12.9.1
 
-$$S[\varphi] = \int d^4x\,\sqrt{-g}\;\Bigl[\tfrac12\,G_{ab}(\varphi)\,g^{\mu\nu}\partial_\mu\varphi^a\partial_\nu\varphi^b \;+\; b_t(\varphi) \;-\; \lambda\bigl(I_{\min} - I(\varphi,s_0)\bigr)\Bigr]$$
+```math
+S[\varphi] = \int d^4x\,\sqrt{-g}\;\Bigl[\tfrac12\,G_{ab}(\varphi)\,g^{\mu\nu}\partial_\mu\varphi^a\partial_\nu\varphi^b \;+\; b_t(\varphi) \;-\; \lambda\bigl(I_{\min} - I(\varphi,s_0)\bigr)\Bigr]
+```
 
 Field content: `φ = (ρ, π¹, π², π³)` on `SO(4,1)/SO(3,1) = dS₄`; `G_{ab}` Fubini-Study metric on coset; `b_t` branching drive; `λ` Lagrange multiplier (CC); `I(φ,s₀) ∈ [0,1]` compatibility functional (Born rule); `I_min = 1/2` at `v₀ = π/2`; `s₀` Seed state (axiom A2).
 
@@ -3452,7 +3535,9 @@ Euler-Lagrange: `g_ij ẍ^j + Γ^i_{jk} ẋ^j ẋ^k = ∂^i b_t(x) − λ ∇^i 
 
 ### 12.14.D Master Conservation Statement (canonical §12.9)
 
-$$\boxed{\{Q_A, H_S\} = 0 \quad \forall A \in \text{generators}(\text{Stab}(s_0))}$$
+```math
+\boxed{\{Q_A, H_S\} = 0 \quad \forall A \in \text{generators}(\text{Stab}(s_0))}
+```
 
 where `Q_A = p_i(X_A)^i = ⟨Ψ(x), AΨ(x)⟩_H` (Berry connection identity; §12.9.4). Three terms vanish independently: Killing (isometry), Inv(b_t) (A3 isotropy), Stab(s₀) (Seed eigenstate).
 
@@ -3462,13 +3547,17 @@ where `Q_A = p_i(X_A)^i = ⟨Ψ(x), AΨ(x)⟩_H` (Berry connection identity; §1
 
 ### 12.14.F Branching Potential (all constants derived) — canonical §12.34
 
-$$b_t(\rho) = \kappa\lambda_b(L_*A)^2\;\rho^2(1 - A^2\rho^2)^2$$
+```math
+b_t(\rho) = \kappa\lambda_b(L_*A)^2\;\rho^2(1 - A^2\rho^2)^2
+```
 
 `A = 2/(π√3)`, `v₀ = π/2`, `A²v₀² = 1/3`, `I_min = 1/2`, `m²_Trunk = (128/81) H_inf²`. All coefficients coset-derived; `n = 2` uniquely forced by `A²v₀² = 1/(n+1) = 1/3` (§12.34). `(128/81) = (8/3) × (4/9) × (4/3)` includes the octahedral Schur factor `Z_O⁻¹ = 4/3` (§12.42). Weyl-invariance of `I` (weight 0) combined with `λ` (weight −2) + `√−g` (weight +4) gives the Lagrangian term weight +2 — matches kinetic and `b_t` terms.
 
 ### 12.14.G Cosmological Constant — equivalent forms (canonical §12.31)
 
-$$\boxed{\lambda_{\rm CC} = \Omega_\Lambda\,H_0^2 = 2.387\times10^{-121}\,M_{\rm Pl}^2}$$
+```math
+\boxed{\lambda_{\rm CC} = \Omega_\Lambda\,H_0^2 = 2.387\times10^{-121}\,M_{\rm Pl}^2}
+```
 
 | Form | Expression | Route |
 |---|---|---|
@@ -3571,7 +3660,9 @@ The **inflationary sector** now has one free dimensionless parameter (α_U at H_
 
 With `I(v₀) = I_min` (constraint binding at vacuum), the Lagrange multiplier is:
 
-$$\lambda_{\rm natural} = \frac{\partial b_t/\partial\rho}{|\partial I/\partial\rho|}\bigg|_{\rho=v_0=\pi/2} = \kappa\lambda_b(L_*A)^2 \times \frac{4\pi/27}{1/2} = \frac{8\pi}{27} \times L_*^2\kappa\lambda_b \times A^2 = \frac{8\pi}{27} \times 5400 \times \frac{4}{3\pi^2} = \frac{172800}{81\pi} \approx 679 \, M_{\rm Pl}^2$$
+```math
+\lambda_{\rm natural} = \frac{\partial b_t/\partial\rho}{|\partial I/\partial\rho|}\bigg|_{\rho=v_0=\pi/2} = \kappa\lambda_b(L_*A)^2 \times \frac{4\pi/27}{1/2} = \frac{8\pi}{27} \times L_*^2\kappa\lambda_b \times A^2 = \frac{8\pi}{27} \times 5400 \times \frac{4}{3\pi^2} = \frac{172800}{81\pi} \approx 679 \, M_{\rm Pl}^2
+```
 
 **The cosmological constant problem — exact Reflexivity statement.** `λ_natural = 172800/(81π) ≈ 679 M_Pl²` (from Fubini-Study + branching geometry); `λ_observed = 9.627 × 10⁻¹²³ M_Pl²` (from Λ_obs). Fine-tuning required: `λ_natural/λ_obs = 7.05 × 10¹²⁵`. This is the cosmological constant problem stated in Reflexivity's own symbols. The Fubini-Study geometry gives a specific natural scale (679 M_Pl²); the observed λ is smaller by exactly `7×10¹²⁵` — the hierarchy that remains unexplained.
 
@@ -3653,9 +3744,13 @@ This section derives the reheating temperature T_reh from the Reflexivity branch
 
 After inflation the Trunk field oscillates around its vacuum `v₀ = π/2` with frequency `m_Trunk` — the curvature of the effective potential there. From the branching drive `b_t(ρ) = κλ_b(L_*A)² ρ²(1 − A²ρ²)²`, the second derivative at `v₀` (using `A²v₀² = 1/3` from Fubini-Study minimum): `b_t''(v₀) = κλ_b(L_*A)² × [8/27 − 48/27] = −(40/27) κλ_b(L_*A)²`. Using `κλ_b(L_*A)² = H_inf²/2` (from inflationary rate `H_inf = A·L_*·√(2κλ_b)`):
 
-$$V_{\rm eff}''(v_0) = -b_t''(v_0) = \frac{40}{27} \times \frac{H_{\rm inf}^2}{2} = \frac{20}{27} H_{\rm inf}^2$$
+```math
+V_{\rm eff}''(v_0) = -b_t''(v_0) = \frac{40}{27} \times \frac{H_{\rm inf}^2}{2} = \frac{20}{27} H_{\rm inf}^2
+```
 
-$$\boxed{m_{\rm Trunk} = \sqrt{\tfrac{20}{27}}\, H_{\rm inf} = \tfrac{2\sqrt{5}}{3\sqrt{3}}\, H_{\rm inf} \approx 0.8607\, H_{\rm inf} = 8.607 \times 10^{-6}\, M_{\rm Pl} \;(\!=1.05\times10^{14}\,{\rm GeV})}$$
+```math
+\boxed{m_{\rm Trunk} = \sqrt{\tfrac{20}{27}}\, H_{\rm inf} = \tfrac{2\sqrt{5}}{3\sqrt{3}}\, H_{\rm inf} \approx 0.8607\, H_{\rm inf} = 8.607 \times 10^{-6}\, M_{\rm Pl} \;(\!=1.05\times10^{14}\,{\rm GeV})}
+```
 
 The Trunk mass is 86% of the inflationary Hubble rate — fully derived, closed-form, no free parameters.
 
@@ -3679,9 +3774,13 @@ The effective coupling of the Trunk to pNGB fields carries two independent geome
 
 **Combined geometric suppression:**
 
-$$g_{\rm eff} = g_{\rm SM} \times \sin(v_0/2)\cos(v_0/2) = g_{\rm SM} \times \frac{\sin(v_0)}{2} = \frac{g_{\rm SM}}{2} \quad\text{(exact at }v_0=\pi/2\text{)}$$
+```math
+g_{\rm eff} = g_{\rm SM} \times \sin(v_0/2)\cos(v_0/2) = g_{\rm SM} \times \frac{\sin(v_0)}{2} = \frac{g_{\rm SM}}{2} \quad\text{(exact at }v_0=\pi/2\text{)}
+```
 
-$$\boxed{g_{\rm eff} = g_{\rm SM}/2}$$
+```math
+\boxed{g_{\rm eff} = g_{\rm SM}/2}
+```
 
 An **exact geometric result**: the two Fubini-Study factors (`1/√2` each) multiply to give total suppression of exactly 1/2. The equatorial vacuum `v₀ = π/2` is essential — any other vacuum angle would give a different suppression.
 
@@ -3695,13 +3794,17 @@ An **exact geometric result**: the two Fubini-Study factors (`1/√2` each) mult
 
 **Trunk decay into 3 massless spatial pNGBs** (π¹, π², π³ — the three broken spatial generators). Each channel `Trunk → π^α π^α` involves identical bosons (symmetry factor 1/2):
 
-$$\Gamma_{\text{Trunk}} = \frac{g_{\text{eff}}^2 \, m_{\text{Trunk}} \, N_{\text{eff}}}{8\pi}, \quad N_{\text{eff}} = 3 \times \tfrac{1}{2} = \tfrac{3}{2}$$
+```math
+\Gamma_{\text{Trunk}} = \frac{g_{\text{eff}}^2 \, m_{\text{Trunk}} \, N_{\text{eff}}}{8\pi}, \quad N_{\text{eff}} = 3 \times \tfrac{1}{2} = \tfrac{3}{2}
+```
 
 Check: `Γ/H_inf = 4.03×10⁻³ < 1` → perturbative reheating (not instant) ✓.
 
 **Reheating temperature** `T_reh = (90/π²g*_reh)^{1/4} √Γ_Trunk = 0.5406 × √(4.03×10⁻⁸) M_Pl`:
 
-$$\boxed{T_{\text{reh}} = 1.086 \times 10^{-4}\, M_{\text{Pl}} \approx 1.3 \times 10^{15}\,\text{GeV}}$$
+```math
+\boxed{T_{\text{reh}} = 1.086 \times 10^{-4}\, M_{\text{Pl}} \approx 1.3 \times 10^{15}\,\text{GeV}}
+```
 
 *Planck mass convention.* GeV values use conventional `M_Pl = 1.221×10¹⁹ GeV` (consistent with `M_GUT ≈ 2×10¹⁵ GeV` reference for `T_reh/M_GUT = 2/3` below). Reduced Planck mass `M_Pl^{reduced} = M_Pl/√(8π) = 2.435×10¹⁸ GeV` used elsewhere (§12.28.2–3, §12.31 for λ_CC; §12.49 for M_R). Both conventions give same dimensionless ratios; GeV conversions differ by `√(8π) ≈ 5.01`. See §12.28.2.
 
@@ -3729,11 +3832,15 @@ Substituting `T_reh` into the cooling formula `λ = H_inf² × (T₀/T_reh)⁴ �
 
 From the Friedmann equation during radiation domination, `H_reh² = (π²g*_reh/90) T_reh⁴ ⇒ H_reh ∝ T_reh²`. After reheating the universe cools as `H ∝ T²` (radiation). At temperature T₀ today:
 
-$$H_0 = H_{\text{reh}} \times \left(\frac{T_0}{T_{\text{reh}}}\right)^2 \times \left(\frac{g^*_0}{g^*_{\text{reh}}}\right)^{1/3} \times \sqrt{\frac{1}{\Omega_r}}$$
+```math
+H_0 = H_{\text{reh}} \times \left(\frac{T_0}{T_{\text{reh}}}\right)^2 \times \left(\frac{g^*_0}{g^*_{\text{reh}}}\right)^{1/3} \times \sqrt{\frac{1}{\Omega_r}}
+```
 
 The T_reh dependence: `H_0 ∝ T_reh² × T_0²/T_reh² = T_0²`. **T_reh cancels exactly.** The Hubble rate today depends only on T₀ (current CMB temperature) and the matter/energy content. The cosmological constant therefore satisfies:
 
-$$\boxed{\lambda = H_0^2 = \frac{\pi^2 g^*_0}{90} \times \frac{T_0^4}{\Omega_r}}$$
+```math
+\boxed{\lambda = H_0^2 = \frac{\pi^2 g^*_0}{90} \times \frac{T_0^4}{\Omega_r}}
+```
 
 This formula contains **no** reference to inflation, T_reh, or reheating history. Numerical evaluation: `λ = (π²×3.91/90) × (2.35×10⁻³²)⁴ / (8.8×10⁻⁵) = 1.486 × 10⁻¹²³ M_Pl²`, within factor 6.5 of `λ_obs = 9.627 × 10⁻¹²³ M_Pl²` (ratio 0.154). Resolution of the factor-6.5 gap via Ω_Λ identification at §12.28.2.
 
@@ -3775,9 +3882,9 @@ This section derives the effective relativistic degrees of freedom today (g*₀ 
 
 The entropy-weighted degrees of freedom today determine how many species carry the cosmic thermal energy:
 
-$$
+```math
 g^*_0 = g_\gamma + \frac{7}{8}\left(\frac{T_\nu}{T_\gamma}\right)^3 \times N_\nu \times 2
-$$
+```
 
 Each factor has a Reflexivity origin.
 
@@ -3787,9 +3894,9 @@ Each factor has a Reflexivity origin.
 
 The photon is a massless spin-1 boson. Its little group (the stabilizer of a null momentum vector) within the Lorentz group SO(3,1) is ISO(2). The discrete part is SO(2), which has exactly two irreducible unitary representations of helicity ±1. Therefore the photon has two polarization states:
 
-$$
+```math
 g_\gamma = \dim(\text{SO}(2)) \times 2 = 1 \times 2 = 2 \quad [\text{DERIVED from SO}(3,1)]
-$$
+```
 
 ---
 
@@ -3797,7 +3904,9 @@ $$
 
 The coset SO(4,1)/SO(3,1) has dimension 4. After the Trunk reaches `v₀ = π/2` and branching differentiates: **1 massive pNGB** (temporal direction, `mass = 2H₀`, dark-energy field) + **3 massless pNGBs** (spatial π¹, π², π³). The three massless spatial pNGBs **label** the three neutrino generations (per §12.33.1 Spin-Statistics: pNGBs are bosonic Goldstone modes that label generations; neutrinos themselves are SM spin-½ fermions `N_R^a`, `ν_L^a`). One pNGB index per spatial dimension ↔ one right-handed neutrino generation:
 
-$$N_\nu = \dim(\text{SO}(4,1)/\text{SO}(3,1)) - 1 = 4 - 1 = 3 \quad \text{[DERIVED: coset spatial-generator count maps to generation index]}$$
+```math
+N_\nu = \dim(\text{SO}(4,1)/\text{SO}(3,1)) - 1 = 4 - 1 = 3 \quad \text{[DERIVED: coset spatial-generator count maps to generation index]}
+```
 
 The massive temporal direction (Trunk) accounts for the "fourth generation" being absent at low energies — it is the dark-energy/inflaton field, not a matter generation.
 
@@ -3811,7 +3920,9 @@ When `T < m_e ≈ 0.511 MeV`, e⁺e⁻ annihilated, heating photons but not alre
 
 **After annihilation** (γ only): `g*_after = g_γ = 2`. Entropy conservation:
 
-$$\frac{T_\nu}{T_\gamma} = \left(\frac{g^*_{\rm after}}{g^*_{\rm before}}\right)^{1/3} = \left(\frac{2}{11/2}\right)^{1/3} = \left(\frac{4}{11}\right)^{1/3} \quad \text{[DERIVED]}$$
+```math
+\frac{T_\nu}{T_\gamma} = \left(\frac{g^*_{\rm after}}{g^*_{\rm before}}\right)^{1/3} = \left(\frac{2}{11/2}\right)^{1/3} = \left(\frac{4}{11}\right)^{1/3} \quad \text{[DERIVED]}
+```
 
 Numerator `4 = g_after × 2` (two photon states). Denominator `11 = g_before × 2 = (2 + 7/2) × 2` (photons + e⁺e⁻ before annihilation). Both 4 and 11 determined by coset dimension.
 
@@ -3819,7 +3930,9 @@ Numerator `4 = g_after × 2` (two photon states). Denominator `11 = g_before × 
 
 The 7/8 factor applies to fermionic species in the thermal bath. Per §12.33.1 (Spin-Statistics Resolution), spatial pNGBs `π¹, π², π³` are **bosonic Goldstone modes**, not fermions — standard CCWZ for SO(4,1)/SO(3,1) produces scalar pNGBs transforming in `(½, ½)` vector representation of SO(3,1), not spinor representations. The pNGBs **label** the three neutrino generations; neutrinos themselves (`N_R^a`, `ν_L^a`) are SM spin-½ Dirac/Majorana fermions. The 7/8 factor therefore describes thermal statistics of SM neutrino fields, not pNGBs:
 
-$$\frac{7}{8} = \frac{\int_0^\infty \frac{x^3}{e^x+1}dx}{\int_0^\infty \frac{x^3}{e^x-1}dx} \quad \text{[SM-imported: standard Fermi-Dirac of spin-½ neutrinos, not coset-derived]}$$
+```math
+\frac{7}{8} = \frac{\int_0^\infty \frac{x^3}{e^x+1}dx}{\int_0^\infty \frac{x^3}{e^x-1}dx} \quad \text{[SM-imported: standard Fermi-Dirac of spin-½ neutrinos, not coset-derived]}
+```
 
 **Audit status** (per §12.23.8): 7/8 is (S/SM-imported) at structural-identification grade — it follows from the SM fermion nature of the neutrinos that the pNGBs label, not from coset content. Earlier drafts of §12.23.5 claimed "spin-statistics from SO(3,1) spinors" with (D) derived-from-coset grade; that rating is retracted here as inconsistent with §12.33.1 and with standard CCWZ.
 
@@ -3829,7 +3942,9 @@ $$\frac{7}{8} = \frac{\int_0^\infty \frac{x^3}{e^x+1}dx}{\int_0^\infty \frac{x^3
 
 Combining all four factors:
 
-$$g^*_0 = 2 + \frac{7}{8} \times \frac{4}{11} \times 3 \times 2 = 2 + \frac{168}{88} = 2 + \frac{21}{11} = \frac{22 + 21}{11} \implies \boxed{g^*_0 = \tfrac{43}{11} \approx 3.9\overline{09}}$$
+```math
+g^*_0 = 2 + \frac{7}{8} \times \frac{4}{11} \times 3 \times 2 = 2 + \frac{168}{88} = 2 + \frac{21}{11} = \frac{22 + 21}{11} \implies \boxed{g^*_0 = \tfrac{43}{11} \approx 3.9\overline{09}}
+```
 
 Derived `43/11 = 3.909090909...` vs observed `3.910000` — exact to all meaningful decimal places; the small discrepancy is rounding in the standard three-significant-figure presentation.
 
@@ -3837,7 +3952,9 @@ Derived `43/11 = 3.909090909...` vs observed `3.910000` — exact to all meaning
 
 With `g*₀ = 43/11` derived exactly:
 
-$$\boxed{\lambda = \frac{43\pi^2}{990} \times \frac{T_0^4}{\Omega_r}}$$
+```math
+\boxed{\lambda = \frac{43\pi^2}{990} \times \frac{T_0^4}{\Omega_r}}
+```
 
 Numerically with `T₀ = 2.35×10⁻³² M_Pl` and `Ω_r = 8.8×10⁻⁵`: `λ_calc = 1.486 × 10⁻¹²³ M_Pl²` vs `λ_obs = 9.627 × 10⁻¹²³ M_Pl²`, ratio 0.154 (within factor 6.5). The remaining factor 6.5 comes entirely from `Ω_r`; once `Ω_r` is derived from the Creative Asymmetry (§12.24), only `T₀` remains as the single empirical input.
 
@@ -3892,7 +4009,9 @@ Numerically with `T₀ = 2.35×10⁻³² M_Pl` and `Ω_r = 8.8×10⁻⁵`: `λ_c
 
 **The Furey Cl(6) closure (summary).** Per §12.45.9–10 (integrated from R1.6 Session #2, §31.6–7), the Clifford algebra Cl(6) of the (ℍ, 𝕆) pairing has a minimal left ideal of complex dimension 8 that decomposes under SU(3)_C as:
 
-$$\text{Minimal left ideal of Cl(6)} = \mathbf{1} \oplus \mathbf{3} \oplus \bar{\mathbf{3}} \oplus \mathbf{1}$$
+```math
+\text{Minimal left ideal of Cl(6)} = \mathbf{1} \oplus \mathbf{3} \oplus \bar{\mathbf{3}} \oplus \mathbf{1}
+```
 
 matching exactly one full SM fermion generation (left-handed neutrino, up-quark triplet, down-antiquark antitriplet, positron). Hypercharge Y is quantized in 1/3 units via the Furey 2015 number-operator theorem. Three generations emerge from the three primitive idempotent classes. This closure is at **8.5/10 firm** (R5, §12.45.9–10; the 1.5/10 residual deduction reflects the Furey construction's peer-reviewed but not-yet-universally-adopted status).
 
@@ -3915,16 +4034,30 @@ matching exactly one full SM fermion generation (left-handed neutrino, up-quark 
 
 **The derivation chain, made explicit.**
 
-$$\text{Cl(6) minimal left ideal} \;\rightarrow\; \text{SM fermions exist}$$
-$$\text{SM fermions} + \text{spin-statistics theorem} \;\rightarrow\; \text{Fermi–Dirac at thermal equilibrium}$$
-$$\text{Fermi–Dirac} + \int_0^\infty \frac{p^2 \, dp}{e^{p/T} + 1} = \frac{7}{8} \int_0^\infty \frac{p^2 \, dp}{e^{p/T} - 1} \;\rightarrow\; \text{factor 7/8 per fermionic DOF}$$
+```math
+\text{Cl(6) minimal left ideal} \;\rightarrow\; \text{SM fermions exist}
+```
+```math
+\text{SM fermions} + \text{spin-statistics theorem} \;\rightarrow\; \text{Fermi–Dirac at thermal equilibrium}
+```
+```math
+\text{Fermi–Dirac} + \int_0^\infty \frac{p^2 \, dp}{e^{p/T} + 1} = \frac{7}{8} \int_0^\infty \frac{p^2 \, dp}{e^{p/T} - 1} \;\rightarrow\; \text{factor 7/8 per fermionic DOF}
+```
 
 and:
 
-$$\text{Cl(6) derives electron/positron} \;\rightarrow\; \text{e⁺e⁻ annihilation kinematics}$$
-$$\text{Entropy conservation: } g_{\text{before}} T_\text{before}^3 = g_{\text{after}} T_\text{after}^3$$
-$$g_{\text{before}} = 2_\gamma + \tfrac{7}{8} \cdot 4_{e^\pm} = \tfrac{22}{4} = \tfrac{11}{2}; \; g_{\text{after}} = 2_\gamma$$
-$$\Rightarrow \; \frac{T_\nu}{T_\gamma} = \left(\frac{2}{11/2}\right)^{1/3} = \left(\frac{4}{11}\right)^{1/3}$$
+```math
+\text{Cl(6) derives electron/positron} \;\rightarrow\; \text{e⁺e⁻ annihilation kinematics}
+```
+```math
+\text{Entropy conservation: } g_{\text{before}} T_\text{before}^3 = g_{\text{after}} T_\text{after}^3
+```
+```math
+g_{\text{before}} = 2_\gamma + \tfrac{7}{8} \cdot 4_{e^\pm} = \tfrac{22}{4} = \tfrac{11}{2}; \; g_{\text{after}} = 2_\gamma
+```
+```math
+\Rightarrow \; \frac{T_\nu}{T_\gamma} = \left(\frac{2}{11/2}\right)^{1/3} = \left(\frac{4}{11}\right)^{1/3}
+```
 
 Both chains are sequences of standard QFT + cosmology operations applied to framework-derived content.
 
@@ -3932,7 +4065,9 @@ Both chains are sequences of standard QFT + cosmology operations applied to fram
 
 **Result.**
 
-$$\boxed{g^*_0 = g_\gamma + \tfrac{7}{8} \cdot 2 \cdot N_\nu \cdot \tfrac{4}{11} = 2 + \tfrac{21}{11} = \tfrac{43}{11}}$$
+```math
+\boxed{g^*_0 = g_\gamma + \tfrac{7}{8} \cdot 2 \cdot N_\nu \cdot \tfrac{4}{11} = 2 + \tfrac{21}{11} = \tfrac{43}{11}}
+```
 
 All four factors now derive from the framework's coset structure plus its Cl(6) fermion content. The numerical result 43/11 ≈ 3.909 matches the observed effective relativistic DOF at recombination to 0.05%.
 
@@ -3952,15 +4087,15 @@ The radiation fraction Ω_r today is not an independent quantity. It is set by t
 
 The radiation fraction today:
 
-$$
+```math
 \Omega_r = \Omega_\gamma + \Omega_\nu = \frac{\rho_\gamma + \rho_\nu}{\rho_c} = \frac{(43/11) \times (\pi^2/30) T_0^4}{3H_0^2}
-$$
+```
 
 This depends on g*₀ = 43/11 (derived) and on H₀. Since H₀ = √λ (conformal running), this is consistent — but circular unless λ or H₀ is independently fixed. The independent constraint is:
 
-$$
+```math
 \frac{\Omega_r}{\Omega_b} = \frac{T_0}{m_p \cdot \eta_B} \times \frac{\pi^4 g^*_0}{60 \zeta(3)}
-$$
+```
 
 where η_B = (n_B - n_B̄)/n_γ is the baryon-to-photon ratio and m_p is the proton mass. Both η_B and m_p require SM physics. The structural question is: what determines η_B?
 
@@ -3976,14 +4111,18 @@ For any baryon asymmetry to exist (Sakharov 1967), three conditions must hold si
 
 The CP asymmetry in Trunk → pNGB decays vanishes at tree level (the action is real); at **one loop**, the compatibility functional acquires an imaginary part through a closed-loop diagram:
 
-$$\varepsilon_{CP} \propto \text{Im}[I_{\text{1-loop}}(v_0)] \times \frac{g_{\text{eff}}^2}{8\pi} \times \frac{m_{\text{Trunk}}^2}{T_{\text{reh}}^2}$$
+```math
+\varepsilon_{CP} \propto \text{Im}[I_{\text{1-loop}}(v_0)] \times \frac{g_{\text{eff}}^2}{8\pi} \times \frac{m_{\text{Trunk}}^2}{T_{\text{reh}}^2}
+```
 
 Crucially `Im[I_{1-loop}](v_0) ∝ sin(v_0) = sin(π/2) = 1` — maximum possible CP violation. The Creative Asymmetry produces maximal CP violation at the equatorial vacuum as a structural prediction. One-loop evaluation canonical at §12.25.2. Current canonical `η_B ≈ 7.39×10⁻¹⁰` (with 7.74×10⁻¹⁰ upper bracket for ε_CP coefficient uncertainty) per post-§12.25.11 + §12.25.14 resolution — 21–26% above observed 6.12×10⁻¹⁰, consistent at model-systematic level.
 
 ### 12.24.4 The Final Derivation Path
 
 Once `η_B` is computed from `ε_CP`:
-$$\eta_B = \varepsilon_{CP} \times \frac{\Gamma_{\text{sph}}}{H_{\text{reh}}} \times \kappa_{\text{washout}}; \quad \lambda = \frac{43\pi^2}{990} \times \frac{T_0^4}{\Omega_r(\eta_B)}$$
+```math
+\eta_B = \varepsilon_{CP} \times \frac{\Gamma_{\text{sph}}}{H_{\text{reh}}} \times \kappa_{\text{washout}}; \quad \lambda = \frac{43\pi^2}{990} \times \frac{T_0^4}{\Omega_r(\eta_B)}
+```
 
 with `T₀` as the only genuine empirical input. This was the **completion condition** for the Reflexivity CC derivation, articulated pre-calculation. The calculation has been completed (§12.25 full derivation); the `Ω_r → λ` closure proceeds through the independently-measured `Ω_Λ` as the final step.
 
@@ -4003,19 +4142,19 @@ The Seed selects a specific branching direction in SO(4,1)/SO(3,1). This selecti
 
 From the vacuum geometry:
 
-$$
+```math
 \theta_{CA} = \frac{v_0}{2} = \frac{\pi/2}{2} = \frac{\pi}{4} \quad [\text{DERIVED: half the equatorial angle}]
-$$
+```
 
 The CP-violating interference amplitude depends on:
 
-$$
+```math
 \sin(2\theta_{CA}) = \sin\!\left(2 \times \frac{\pi}{4}\right) = \sin\!\left(\frac{\pi}{2}\right) = 1
-$$
+```
 
-$$
+```math
 \boxed{\sin(2\theta_{CA}) = 1} \quad \text{[MAXIMUM CP VIOLATION — DERIVED from } v_0 = \pi/2\text{]}
-$$
+```
 
 This is not a coincidence. The equatorial vacuum v₀ = π/2 places the branching exactly at the point where sin(2θ) achieves its maximum. Any smaller vacuum angle (v₀ < π/2) would give sin(v₀) < 1 and hence less CP violation. Any larger angle is not accessible in the SO(4,1)/SO(3,1) coset (π/2 is the maximum geodesic distance). The Seed chose the unique vacuum that simultaneously satisfies the Fubini-Study equatorial condition AND maximizes CP violation.
 
@@ -4027,11 +4166,15 @@ This is not a coincidence. The equatorial vacuum v₀ = π/2 places the branchin
 
 For a scalar field decaying to massless final states at `T_reh` with maximum CP violation `sin(2θ_CA) = 1`, the infrared-regulated one-loop CP asymmetry is:
 
-$$\varepsilon_{CP} = \frac{g_{\text{eff}}^4 \times \sin(2\theta_{CA})}{16\pi \times (T_{\text{reh}}/m_{\text{Trunk}})^2}$$
+```math
+\varepsilon_{CP} = \frac{g_{\text{eff}}^4 \times \sin(2\theta_{CA})}{16\pi \times (T_{\text{reh}}/m_{\text{Trunk}})^2}
+```
 
 Bare-chain substitution: `g_eff = g_GUT/2 = 0.2802`, `m_Trunk = 8.607×10⁻⁶ M_Pl` (bare curvature, §12.22), `T_reh = 1.086×10⁻⁴ M_Pl`, `T_reh/m_Trunk = 12.62`, `sin(2θ_CA) = 1`. Evaluating:
 
-$$\varepsilon_{CP} = \frac{(0.2802)^4}{16\pi \cdot (12.62)^2} = \frac{6.17\times10^{-3}}{8004} = 7.71 \times 10^{-7}$$
+```math
+\varepsilon_{CP} = \frac{(0.2802)^4}{16\pi \cdot (12.62)^2} = \frac{6.17\times10^{-3}}{8004} = 7.71 \times 10^{-7}
+```
 
 ### 12.25.3 The Washout Efficiency at K = 1
 
@@ -4039,13 +4182,17 @@ The washout parameter `K = Γ_Trunk/H(T_reh) = 1.000` (exactly; `Γ_Trunk = 4.03
 
 For K = 1 in the leptogenesis Boltzmann equations (Buchmüller-Di Bari-Plümacher 2005, arXiv:hep-ph/0401240):
 
-$$\kappa(K=1) = 0.085 \quad [\text{Boltzmann integration result, inherited}]$$
+```math
+\kappa(K=1) = 0.085 \quad [\text{Boltzmann integration result, inherited}]
+```
 
 This is fixed by the Boltzmann equations once K is specified; not a free parameter. Decomposition `κ = a_sph × κ_Boltzmann = (28/79) × 0.24` with `a_sph` framework-derivable from §12.45.1 coset → SU(3)_C (§12.25.9–10).
 
 ### 12.25.4 The Baryon-to-Photon Ratio [HISTORICAL]
 
-$$\eta_B = \frac{\varepsilon_{CP} \times \kappa}{g^*_{\text{reh}}} = \frac{7.71 \times 10^{-7} \times 0.085}{106.75} = 6.14 \times 10^{-10}$$
+```math
+\eta_B = \frac{\varepsilon_{CP} \times \kappa}{g^*_{\text{reh}}} = \frac{7.71 \times 10^{-7} \times 0.085}{106.75} = 6.14 \times 10^{-10}
+```
 
 > `[SUPERSEDED → §12.25.11 + §12.25.14]` The legacy "2.3% match" with observed `6.0×10⁻¹⁰` was retired (bare-curvature artifact). Current canonical: `η_B ≈ 7.39×10⁻¹⁰`, 21–26% above observed. Tension lies within the O(1) uncertainty of the ε_CP formula's two implicit choices (interfering-state mass `M_j`, coset multiplicity `N_eff`); full empirical closure requires F1-C (§12.25.12–13).
 
@@ -4053,11 +4200,15 @@ $$\eta_B = \frac{\varepsilon_{CP} \times \kappa}{g^*_{\text{reh}}} = \frac{7.71 
 
 From the pre-resolution `η_B = 6.14×10⁻¹⁰` (values preserved for full-chain transparency; ~30% upward shifts propagate to post-resolution values per §12.25.11):
 
-$$\Omega_b = \frac{\eta_B \cdot n_\gamma \cdot m_p}{\rho_c} = 0.0052 \qquad (n_\gamma = 2\zeta(3)T_0^3/\pi^2)$$
+```math
+\Omega_b = \frac{\eta_B \cdot n_\gamma \cdot m_p}{\rho_c} = 0.0052 \qquad (n_\gamma = 2\zeta(3)T_0^3/\pi^2)
+```
 
 Factor ~10 discrepancy from observed `Ω_b = 0.049` arises because `m_p` in Planck units requires the electroweak scale as SM input.
 
-$$\Omega_r = \frac{(\pi^2 g^*_{\text{energy}}/30)T_0^4}{3H_0^2} = 1.17\times 10^{-5}; \quad \lambda_{\text{calc}} = \frac{43\pi^2}{990}\cdot\frac{T_0^4}{\Omega_r} = 1.12\times 10^{-22}\, M_{\text{Pl}}^2$$
+```math
+\Omega_r = \frac{(\pi^2 g^*_{\text{energy}}/30)T_0^4}{3H_0^2} = 1.17\times 10^{-5}; \quad \lambda_{\text{calc}} = \frac{43\pi^2}{990}\cdot\frac{T_0^4}{\Omega_r} = 1.12\times 10^{-22}\, M_{\text{Pl}}^2
+```
 
 Ratio `λ_calc/λ_obs = 1.16` arises from the `g*_S = 43/11` (entropy) vs `g*_energy = 3.361` (energy) distinction: `g*_S/g*_energy = 1.163`. Calculable correction — consistent treatment closes the 16% gap.
 
@@ -4130,9 +4281,13 @@ SM inputs remaining: g_GUT, m_p (proton mass), T₀ = 2.73K
 
 **The decomposition.** The framework's formula `η_B = ε_CP × κ_framework / g*_reh` absorbs the sphaleron transfer coefficient a_sph into its effective κ. Making this explicit:
 
-$$\kappa_{\rm framework} = a_{\rm sph} \times \kappa_{\rm Boltzmann}(K=1)$$
+```math
+\kappa_{\rm framework} = a_{\rm sph} \times \kappa_{\rm Boltzmann}(K=1)
+```
 
-$$\boxed{0.085 = \frac{28}{79} \times 0.24}$$
+```math
+\boxed{0.085 = \frac{28}{79} \times 0.24}
+```
 
 where **`a_sph = 28/79`** is the standard electroweak sphaleron `B−L → B` conversion coefficient, and **`κ_Boltzmann(K=1) ≈ 0.24`** is the universal Boltzmann washout efficiency at `K = 1` (Buchmuller, Di Bari, Plumacher 2005, "Leptogenesis for Pedestrians," Ann. Phys. 315). This decomposition separates what the framework can derive internally (`a_sph`) from what it inherits (`κ_Boltzmann` at `K = 1`).
 
@@ -4142,17 +4297,23 @@ where **`a_sph = 28/79`** is the standard electroweak sphaleron `B−L → B` co
 
 The sphaleron transfer coefficient a_sph converts the generated B−L asymmetry into baryon-number B through electroweak sphaleron processes. Its standard-model value is:
 
-$$a_{\rm sph} = \frac{8 N_C + 4}{22 N_C + 13}$$
+```math
+a_{\rm sph} = \frac{8 N_C + 4}{22 N_C + 13}
+```
 
 where N_C is the number of QCD colors. This formula is a pure consequence of the SM gauge content: the numerator counts quarks that participate in the SU(2)_L anomaly; the denominator counts all chiral fermion contributions to the hypercharge-lepton-number chemical potential balance.
 
 In Reflexivity, **N_C = 3 is derived from the coset structure** (§12.45.1):
 
-$$N_C = \dim(\text{Lorentz sector}) / \dim(\text{spatial SO}(3)) \cdot \text{Cartan compensation} = \text{the 3 in SU(3)_C}$$
+```math
+N_C = \dim(\text{Lorentz sector}) / \dim(\text{spatial SO}(3)) \cdot \text{Cartan compensation} = \text{the 3 in }SU(3)_C
+```
 
 Specifically, the coset decomposition 10 = 1 + 3 + 6 identifies N_C = 3 colors from the three spatial rotation generators of so(3,1); the full 8-dimensional A₂ Lie-algebra structure of SU(3)_C is derived via the Furey Cl(6) construction on Reflexivity's (ℍ,𝕆) pairing (§12.45.9, §12.45.10). With this framework-provided N_C = 3:
 
-$$a_{\rm sph} = \frac{8 \cdot 3 + 4}{22 \cdot 3 + 13} = \frac{28}{79} \approx 0.3544$$
+```math
+a_{\rm sph} = \frac{8 \cdot 3 + 4}{22 \cdot 3 + 13} = \frac{28}{79} \approx 0.3544
+```
 
 This is a **framework-derivable** quantity: given the framework's SM gauge identification (§12.45), the sphaleron transfer is determined with zero new external input.
 
@@ -4162,7 +4323,9 @@ This is a **framework-derivable** quantity: given the framework's SM gauge ident
 
 The Boltzmann washout efficiency at K = 1 solves the coupled system:
 
-$$\frac{dY_T}{dz} = -(D + S)(Y_T - Y_T^{\rm eq}), \qquad \frac{dY_{B-L}}{dz} = \epsilon_{CP}\, D\, (Y_T - Y_T^{\rm eq}) - W\, Y_{B-L}$$
+```math
+\frac{dY_T}{dz} = -(D + S)(Y_T - Y_T^{\rm eq}), \qquad \frac{dY_{B-L}}{dz} = \epsilon_{CP}\, D\, (Y_T - Y_T^{\rm eq}) - W\, Y_{B-L}
+```
 
 where z = M_Trunk/T, D(z) is the thermally-averaged decay rate, W(z) is the inverse-decay washout rate, and ε_CP is the CP asymmetry parameter.
 
@@ -4196,7 +4359,9 @@ Analogy: gravitational lensing formulas depend on GR, but the *numerical* deflec
 
 **Analytical form for verification** (Plumacher 1997, Giudice-Notari-Raidal-Riotto-Strumia 2003):
 
-$$\kappa(K) \approx \frac{1}{(z_{\rm dec}/K)^{1.2}} \cdot \exp\!\left(-\frac{3\pi K}{8}\right)$$
+```math
+\kappa(K) \approx \frac{1}{(z_{\rm dec}/K)^{1.2}} \cdot \exp\!\left(-\frac{3\pi K}{8}\right)
+```
 
 At `K = 1` with `z_dec ≈ 2.3`: `κ(1) ≈ (1/2.3^{1.2}) · exp(−3π/8) ≈ 0.362 × 0.308 ≈ 0.11`. The more accurate numerical value `0.24` comes from integrating the full Boltzmann equations including off-shell scattering terms (BPY 2005 Table 3).
 
@@ -4248,7 +4413,9 @@ Applying Z_O to m_Trunk (candidate iii) is therefore a **conceptual error** — 
 
 **Where the Schur Z_O factor DOES apply.** It applies to the **Yukawa coupling** between the Trunk and the spatial pNGBs, which involves both Trunk (radial) and pNGB (triplet) legs. The vertex renormalization folds in Z_O⁻¹ through the pNGB-triplet legs. For the seesaw formula Y_ν = coupling × (pNGB-normalization), the combination naturally produces:
 
-$$Y_\nu^2 = \frac{m_{\rm Trunk}^2}{H_{\inf}^2} \times Z_O^{-1} \cdot (\text{pNGB leg factor}) = \frac{128}{81}$$
+```math
+Y_\nu^2 = \frac{m_{\rm Trunk}^2}{H_{\inf}^2} \times Z_O^{-1} \cdot (\text{pNGB leg factor}) = \frac{128}{81}
+```
 
 The "128/81" result in §12.42.5 is correctly the SEESAW YUKAWA squared, not the Trunk pole mass squared. This is the principled resolution: different sectors use different renormalization factors because different legs enter each process.
 
@@ -4291,11 +4458,15 @@ Quantitatively η_B = (7.8 ± X) × 10⁻¹⁰ where X represents: ε_CP coeffic
 
 **Formula examined.**
 
-$$\varepsilon_{CP} = \frac{g_{\rm eff}^4 \sin(2\theta_{CA})}{16\pi\,(T_{\rm reh}/m_{\rm Trunk})^2} = 7.71 \times 10^{-7}$$
+```math
+\varepsilon_{CP} = \frac{g_{\rm eff}^4 \sin(2\theta_{CA})}{16\pi\,(T_{\rm reh}/m_{\rm Trunk})^2} = 7.71 \times 10^{-7}
+```
 
 Substituting `T_reh² = (90/π²g*)^{1/2} Γ M_Pl` with `Γ = g_eff² m_Trunk N_eff/(8π)` gives the `T_reh`-free form:
 
-$$\varepsilon_{CP} = \frac{1}{2\sqrt{90/\pi^2 g^*}\,N_{\rm eff}}\,g_{\rm eff}^2\,\sin(2\theta_{CA})\,\frac{m_{\rm Trunk}}{M_{\rm Pl}}$$
+```math
+\varepsilon_{CP} = \frac{1}{2\sqrt{90/\pi^2 g^*}\,N_{\rm eff}}\,g_{\rm eff}^2\,\sin(2\theta_{CA})\,\frac{m_{\rm Trunk}}{M_{\rm Pl}}
+```
 
 **Comparison with standard leptogenesis** (Covi–Roulet–Vissani 1996; BPY 2005; Davidson–Nardi–Nir 2008): framework's formula matches `ε_CP^BPY = (3/16π) y² (M_1/M_j) sin(2δ)` with four identifications:
 
@@ -4329,7 +4500,9 @@ $$\varepsilon_{CP} = \frac{1}{2\sqrt{90/\pi^2 g^*}\,N_{\rm eff}}\,g_{\rm eff}^2\
 
 **Finding #1: `N_eff = 3/2` structurally derived.** Framework decay rate `Γ_Trunk = g² m_Trunk N_eff/(8π)` for `Trunk → ℓ + H` with `N_gen` generations of standard 2-body Yukawa kinematics:
 
-$$\Gamma_{\rm total} = N_{\rm gen} \cdot \frac{y^2 m_S}{16\pi} = \frac{y^2 m_S}{8\pi} \cdot \frac{N_{\rm gen}}{2} \;\Rightarrow\; \boxed{N_{\rm eff} = N_{\rm gen}/2 = 3/2}$$
+```math
+\Gamma_{\rm total} = N_{\rm gen} \cdot \frac{y^2 m_S}{16\pi} = \frac{y^2 m_S}{8\pi} \cdot \frac{N_{\rm gen}}{2} \;\Rightarrow\; \boxed{N_{\rm eff} = N_{\rm gen}/2 = 3/2}
+```
 
 with `N_gen = 3` framework-derived (§12.33.1). Framework quoted 1.57 vs structural 1.500 = 4.5% agreement. **Closes (S) item #2 → (D).**
 
@@ -4357,7 +4530,9 @@ The 5-pt increase in tension is the cost of using structural `N_eff`; both remai
 
 **The α_U scaling factor.** Since g_eff = √(4πα_U)/2 and ε_CP ∝ g_eff⁴/(T/m)² ∝ g_eff² (because T_reh ∝ g_eff with m_Trunk unchanged), the entire η_B chain scales by (α_U_new/α_U_old) = 40/42 = 0.9524 when we change only α_U:
 
-$$\eta_B^{(\alpha_U=1/42)} = \eta_B^{(\alpha_U=1/40)} \times \frac{40}{42}$$
+```math
+\eta_B^{(\alpha_U=1/42)} = \eta_B^{(\alpha_U=1/40)} \times \frac{40}{42}
+```
 
 **Updated predictions with framework-derived α_U⁻¹ = 42 and §12.25.11 pole-mass resolution:**
 
@@ -4368,7 +4543,9 @@ $$\eta_B^{(\alpha_U=1/42)} = \eta_B^{(\alpha_U=1/40)} \times \frac{40}{42}$$
 
 **Framework-self-consistent central prediction with structural N_eff = 3/2:**
 
-$$\boxed{\eta_B^{\rm (framework)} = 7.74 \times 10^{-10} \quad (26\% \text{ above observed } 6.12 \times 10^{-10})}$$
+```math
+\boxed{\eta_B^{\rm (framework)} = 7.74 \times 10^{-10} \quad (26\% \text{ above observed } 6.12 \times 10^{-10})}
+```
 
 Range accounting for N_eff convention (1.57 phenomenological vs 3/2 structural): **η_B ∈ [7.39, 7.74] × 10⁻¹⁰**, or **21–26% above observed**.
 
@@ -4382,7 +4559,9 @@ Step 3 — η_B chain quantities scale multiplicatively by `40/42 ≈ 5%` relati
 
 Step 4 — η_B via §12.25.4:
 
-$$\eta_B = \frac{a_{\rm sph} \cdot \kappa_{\rm Boltzmann} \cdot \varepsilon_{\rm CP}}{g^*_{\rm reh}} = \eta_B^{(\alpha=1/40)} \times \frac{40}{42}$$
+```math
+\eta_B = \frac{a_{\rm sph} \cdot \kappa_{\rm Boltzmann} \cdot \varepsilon_{\rm CP}}{g^*_{\rm reh}} = \eta_B^{(\alpha=1/40)} \times \frac{40}{42}
+```
 
 For structural `N_eff = 3/2`: `η_B = 8.12 × 10⁻¹⁰ × 40/42 = 7.74 × 10⁻¹⁰`. For phenomenological `N_eff = 1.57`: `η_B = 7.39 × 10⁻¹⁰`.
 
@@ -4398,7 +4577,9 @@ For structural `N_eff = 3/2`: `η_B = 8.12 × 10⁻¹⁰ × 40/42 = 7.74 × 10�
 
 *Structural pre-audit classifying each factor of the ε_CP formula (§12.25.2) by origin. Does not execute the specialist calculation; sharpens the description of what that calculation would verify and bounds the O(1) uncertainty.*
 
-$$\varepsilon_{CP} = \underbrace{g_{\rm eff}^4}_{\text{coupling}} \times \underbrace{\sin(2\theta_{CA})}_{\text{CP phase}} \times \underbrace{\frac{1}{16\pi}}_{\text{phase space}} \times \underbrace{\frac{1}{(T_{\rm reh}/m_{\rm Trunk})^2}}_{\text{thermal}}$$
+```math
+\varepsilon_{CP} = \underbrace{g_{\rm eff}^4}_{\text{coupling}} \times \underbrace{\sin(2\theta_{CA})}_{\text{CP phase}} \times \underbrace{\frac{1}{16\pi}}_{\text{phase space}} \times \underbrace{\frac{1}{(T_{\rm reh}/m_{\rm Trunk})^2}}_{\text{thermal}}
+```
 
 | Factor | Value / form | Status | Notes |
 |---|---|---|---|
@@ -4435,15 +4616,23 @@ Framework's documented bracket `[4, 10] × 10⁻¹⁰` corresponds to multiplier
 
 The derivation chain passes through T_reh at three points:
 
-$$\text{(A)}\quad \lambda = H_{\inf}^2 \times (T_0/T_{\text{reh}})^4 \times \text{corrections}$$
-$$\text{(B)}\quad \varepsilon_{CP} = \frac{g_{\text{eff}}^4}{16\pi \times (T_{\text{reh}}/m_{\text{Trunk}})^2}$$
-$$\text{(C)}\quad T_{\text{reh}} = \left(\frac{90}{\pi^2 g^*}\right)^{1/4} \sqrt{\Gamma}, \quad \Gamma = \frac{g_{\text{eff}}^2\, m_{\text{Trunk}}\, N_{\text{eff}}}{8\pi}$$
+```math
+\text{(A)}\quad \lambda = H_{\inf}^2 \times (T_0/T_{\text{reh}})^4 \times \text{corrections}
+```
+```math
+\text{(B)}\quad \varepsilon_{CP} = \frac{g_{\text{eff}}^4}{16\pi \times (T_{\text{reh}}/m_{\text{Trunk}})^2}
+```
+```math
+\text{(C)}\quad T_{\text{reh}} = \left(\frac{90}{\pi^2 g^*}\right)^{1/4} \sqrt{\Gamma}, \quad \Gamma = \frac{g_{\text{eff}}^2\, m_{\text{Trunk}}\, N_{\text{eff}}}{8\pi}
+```
 
 ### 12.26.2 The λ Cancellation — A General Cosmological Fact
 
 Substituting (C) via `H_reh = √(π²g*/90) · T_reh²` and cooling to today:
 
-$$H_0 = \sqrt{\frac{\pi^2 g^*}{90}}\, T_0^2$$
+```math
+H_0 = \sqrt{\frac{\pi^2 g^*}{90}}\, T_0^2
+```
 
 T_reh cancels exactly: `λ = H₀² = (π²g*/90) T₀⁴` is **T_reh-independent**. This cancellation is a **general cosmological fact** (`H ∝ T²` in radiation domination), not Reflexivity-specific. The Reflexivity content is `λ = H₀²` from conformal running (§12.20).
 
@@ -4451,7 +4640,9 @@ T_reh cancels exactly: `λ = H₀² = (π²g*/90) T₀⁴` is **T_reh-independen
 
 Substituting (C) into (B) and simplifying:
 
-$$\boxed{\varepsilon_{CP} = \frac{g_{\text{eff}}^2\, m_{\text{Trunk}}\, \pi\sqrt{g^*}}{2\sqrt{90}\, N_{\text{eff}}}}$$
+```math
+\boxed{\varepsilon_{CP} = \frac{g_{\text{eff}}^2\, m_{\text{Trunk}}\, \pi\sqrt{g^*}}{2\sqrt{90}\, N_{\text{eff}}}}
+```
 
 T_reh cancels exactly, and `g_eff⁴` reduces to `g_eff²`. **This cancellation is specific to the formula structure** (`ε_CP ∝ 1/T_reh²` and `T_reh ∝ √(g_eff² m_Trunk)`). Both forms numerically verified at `ε_CP = 7.709 × 10⁻⁷`.
 
@@ -4461,9 +4652,13 @@ In `Ω_r = Ω_b × (Ω_r/Ω_b)`, the factors `(η_B × C₁)` and `(π⁴g*T₀)
 
 ### 12.26.5 The Two Clean T_reh-Free Formulas
 
-$$\boxed{\lambda = \frac{43\pi^2}{990} \times \frac{T_0^4}{\Omega_r}} \qquad [\text{current thermal state}]$$
+```math
+\boxed{\lambda = \frac{43\pi^2}{990} \times \frac{T_0^4}{\Omega_r}} \qquad [\text{current thermal state}]
+```
 
-$$\boxed{\eta_B = \frac{g_{\text{eff}}^2 \cdot (m_{\text{Trunk}}/H_{\inf}) \cdot \pi}{2\sqrt{90} \cdot N_{\text{eff}} \cdot \sqrt{g^*}} \times \kappa \times H_{\inf}} \qquad [\text{inflation era}]$$
+```math
+\boxed{\eta_B = \frac{g_{\text{eff}}^2 \cdot (m_{\text{Trunk}}/H_{\inf}) \cdot \pi}{2\sqrt{90} \cdot N_{\text{eff}} \cdot \sqrt{g^*}} \times \kappa \times H_{\inf}} \qquad [\text{inflation era}]
+```
 
 *Explicit values:* `g_eff = 0.2802` (legacy α_GUT=1/40 convention per §12.22.2), `m_Trunk/H_inf = √(20/27) ≈ 0.861` (bare mass, pre-§12.25.11 legacy), `N_eff = 3/2` (§12.25.13), `g* = 106.75` (SM at T > 100 GeV). Substituting: `η_B = 7.22×10⁻⁴ × κ × H_inf = 7.22×10⁻⁴ × 0.085 × 10⁻⁵ = 6.14×10⁻¹⁰` (pre-§12.25.11 chain).
 
@@ -4557,17 +4752,17 @@ Every parameter that enters the λ derivation chain, classified:
 
 Using only independently measured inputs (Version A — no circularity):
 
-$$
+```math
 \lambda_{\text{calc}} = \frac{43\pi^2}{990} \times \frac{T_0^4}{\Omega_r} = \frac{0.4288 \times (2.35\times10^{-32})^4}{8.8\times10^{-5}} = 1.49 \times 10^{-123}\,M_{\text{Pl}}^2
-$$
+```
 
-$$
+```math
 \lambda_{\text{obs}} = 9.627 \times 10^{-123}\,M_{\text{Pl}}^2
-$$
+```
 
-$$
+```math
 \text{Factor: } \frac{\lambda_{\text{obs}}}{\lambda_{\text{calc}}} = 6.5
-$$
+```
 
 Note: a second version (using Ω_r computed from ρ_r/(3λ_obs)) gives a factor of 1.16, but this is semi-circular since it uses λ_obs to compute Ω_r. The honest, non-circular result is Version A: factor 6.5.
 
@@ -4577,7 +4772,9 @@ The factor 6.5 is not a free parameter — it comes from the g*_S vs g*_energy c
 
 ### 12.27.4 PASS/FAIL Verdict
 
-$$\boxed{\textbf{PASS}\;\text{(resolved in §12.31)}}$$
+```math
+\boxed{\textbf{PASS}\;\text{(resolved in §12.31)}}
+```
 
 **PASS because:** no parameters were chosen specifically to reproduce `λ_obs` (Ω_Λ is used as measured input; the form `λ ∝ H²` comes from Weyl consistency, not from fitting to `λ_obs`; α_U per F4 is fit-matched to α_EM/sin²θ_W at M_Z, not to λ_obs); all inputs to the λ formula are either axiom-derived or independently measured; `g*₀ = 43/11` is derived from coset geometry with no free choice; order of magnitude correct (`log₁₀(λ_calc) = −122.8`, `log₁₀(λ_obs) = −122.0`).
 
@@ -4611,29 +4808,29 @@ The derivation of `λ ≈ 10⁻¹²³ M_Pl²`: uses **zero ad hoc tuning paramet
 
 **Conclusion from the table:** The kinetic term and branching drive both pick up the same factor e^{+2σ}. For Weyl **consistency** (all terms transforming identically), the compatibility coupling λ must satisfy:
 
-$$
+```math
 \lambda \to e^{-2\sigma}\lambda
-$$
+```
 
 Under Weyl: objects of mass dimension m transform as e^{-m\sigma}. Therefore λ has mass dimension **+2**. The unique combination of mass dimension +2 built from the de Sitter geometry is H². Therefore:
 
-$$
+```math
 \lambda \propto H^2 \quad [\text{REQUIRED BY WEYL CONSISTENCY}]
-$$
+```
 
 **Note:** The action is NOT Weyl *invariant* (action ≠ Ŝ), but it IS Weyl *consistent* — all terms share the same conformal weight. This is the correct form of the argument; "conformal invariance" in the document should be read as "Weyl consistency of conformal weights."
 
 **Coefficient from the Casimir:** The temporal pNGB in the n=1 discrete series of SO(4,1) has eigenvalue:
 
-$$
+```math
 m_G^2 = n(n+3)\,H^2\big|_{n=1} = 4H^2
-$$
+```
 
 This places the temporal pNGB in the unique discrete series representation consistent with the de Sitter geometry. Combined with the Weyl consistency condition:
 
-$$
+```math
 \boxed{\lambda = H^2} \quad [\text{CONFIRMED — rated 8.5/10}]
-$$
+```
 
 **Remaining condition:** b_t ∝ H² must hold at all epochs, not just during inflation. During inflation this holds by construction. At later epochs it requires κλ_b(t) to run with H²(t) — this is the content of the running vacuum model and is supported by the RG argument in de Sitter.
 
@@ -4658,7 +4855,9 @@ $$
 
 **Non-trivial content.** The Weyl consistency argument gives `λ ∝ H²`, evaluated at today as `λ = H₀²`. The observable CC is the dark-energy fraction `λ_obs = Ω_Λ × H₀² = 0.685 × H₀²`. Identifying `λ_Reflexivity` with `ρ_Λ` (what the CC measures in the Friedmann equation) gives the derived result
 
-$$\boxed{\lambda_{\rm calc} = \Omega_\Lambda \times H_0^2 = 0.685 \times 3.485 \times 10^{-121} = 2.387 \times 10^{-121}\,M_{\rm Pl}^2 = \lambda_{\rm obs}}$$
+```math
+\boxed{\lambda_{\rm calc} = \Omega_\Lambda \times H_0^2 = 0.685 \times 3.485 \times 10^{-121} = 2.387 \times 10^{-121}\,M_{\rm Pl}^2 = \lambda_{\rm obs}}
+```
 
 with `Ω_Λ = 0.685` as the measured dark-energy fraction — a fifth independently measured input alongside T₀, H_inf, N_e, Ω_r. **Ratio = 1.000 [EXACT]** with Ω_Λ identified as input; the "factor 6.5 gap" closes as a convention artifact + the `1/Ω_Λ` identification step.
 
@@ -4697,7 +4896,9 @@ with `Ω_Λ = 0.685` as the measured dark-energy fraction — a fifth independen
 | Fix 1: `λ = H²` | **PASS** | Weyl consistency + Casimir; condition `b_t ∝ H²` at all epochs |
 | Fix 2: g* convention | **PASS** | Formula = `H₀²` exactly (tautology); `λ_obs = Ω_Λ H₀²` with Ω_Λ measured |
 
-$$\boxed{\textbf{PASS} \quad \text{with one additional measured input: } \Omega_\Lambda = 0.685}$$
+```math
+\boxed{\textbf{PASS} \quad \text{with one additional measured input: } \Omega_\Lambda = 0.685}
+```
 
 Total independently measured inputs: T₀, H_inf, N_e, Ω_r, g_GUT, **Ω_Λ** (now explicit). Ad hoc/tuned parameters: **0** (Ω_Λ is measured, not fitted to λ). The cosmological constant is fully derived: **`λ = Ω_Λ H₀²`** where both Ω_Λ and H₀ are independently measured, and the derivation chain from axioms produces H₀ via conformal running.
 
@@ -4740,7 +4941,9 @@ Two independent protection mechanisms:
 
 ### 12.29.3 Verdict
 
-$$\boxed{\textbf{PASS}}$$
+```math
+\boxed{\textbf{PASS}}
+```
 
 - ±20% on all measured inputs simultaneously: `|Δ log₁₀(λ)| < 0.5` ✓
 - Complete independence from inflationary geometry (exact cancellation) ✓
@@ -4786,7 +4989,9 @@ Reflexivity occupies the same structural space as unimodular gravity and sequest
 
 ### 12.30.5 Verdict
 
-$$\boxed{\textbf{PASS (via §12.31.7–8)}}$$
+```math
+\boxed{\textbf{PASS (via §12.31.7–8)}}
+```
 
 All three objections closed: Ward identity proved at one loop (§12.31.2–3); SM sequestration verified at 2 loops with `δλ/λ ≤ 10⁻⁴⁸` (§12.31.8); Lagrange-multiplier structure verified as unimodular-like. The CC derivation reaches 10/10 for observational purposes; the only remaining item is formal all-orders rigor, not physical content.
 
@@ -4810,9 +5015,9 @@ All three objections closed: Ward identity proved at one loop (§12.31.2–3); S
 
 The standard CC problem assumes:
 
-$$
+```math
 \lambda_{\text{CC}} = \lambda_{\text{bare}} + \sum_i \frac{g_i\, m_i^4}{16\pi^2} \approx \frac{M_{\text{Pl}}^4}{16\pi^2} \approx 6\times10^{-3}\,M_{\text{Pl}}^4
-$$
+```
 
 This argument presupposes that λ_CC is a **coupling constant** in the action that can receive additive quantum corrections from all massive fields. In Reflexivity, this presupposition fails: λ is a **Lagrange multiplier**, not a coupling constant. Its value is set by the field equations of motion, not by loop integrals.
 
@@ -4822,9 +5027,9 @@ This argument presupposes that λ_CC is a **coupling constant** in the action th
 
 **Theorem:** The 1PI effective action of the Reflexivity sigma model on SO(4,1)/SO(3,1) in de Sitter background satisfies
 
-$$
+```math
 \delta_{\text{Weyl}}\,\Gamma_{\text{Reflexivity}}[g,\varphi] = \int d^4x\,\sigma(x)\,T^\mu{}_\mu^{\text{anomaly}}
-$$
+```
 
 where $T^\mu{}_\mu^{\text{anomaly}} \propto E_4 \sim H^4$ (conformal weight −4), and **no conformal-weight-0 term is generated**.
 
@@ -4833,33 +5038,33 @@ where $T^\mu{}_\mu^{\text{anomaly}} \propto E_4 \sim H^4$ (conformal weight −4
 *Spatial pNGBs (π¹, π², π³) — mass m²_π = 0:*
 
 The Coleman-Weinberg one-loop correction for massless scalars in dimensional regularisation:
-$$
+```math
 V_{\text{1-loop}}(\pi) = \frac{3}{64\pi^2}\,(m^2_\pi)^2\,\left[\ln\frac{m^2_\pi}{\mu^2} - \frac{3}{2}\right] = \frac{3}{64\pi^2}\times 0 = 0
-$$
+```
 Massless tadpole integrals vanish identically in dimensional regularisation. The shift symmetry π → π + c independently forbids any contribution. **Loop correction to λ from spatial pNGBs = 0 exactly.**
 
 *Radial mode (ρ) — mass m²_ρ = (128/81)H²:*
 
 This mass has **conformal weight −2** (it tracks H², not a fixed scale). The one-loop correction:
-$$
+```math
 \delta V_{\text{1-loop}}(\rho) = \frac{1}{64\pi^2}\left[\frac{20}{27}H^2\right]^2 \ln\left(\frac{m^2_\rho}{\mu^2}\right) \approx \frac{0.549}{64\pi^2}\,H^4
-$$
+```
 
 Conformal weight of H⁴: (−2) × 2 = **−4**, not 0. This correction cannot shift λ (which has weight −2). Numerically at H₀:
-$$
+```math
 \delta\lambda_\rho \approx 10^{-244}\,M_{\text{Pl}}^2 \quad\text{vs}\quad \lambda_{\text{obs}} = 2.4\times10^{-121}\,M_{\text{Pl}}^2
 \quad \Rightarrow\quad \delta\lambda_\rho/\lambda_{\text{obs}} \sim 10^{-124}
-$$
+```
 
 *Trace anomaly (all 4 scalars) in de Sitter background:*
 
 Using the standard curved-space result with E₄ = R_μνρσR^{μνρσ} − 4R_μνR^{μν} + R² = 24H⁴ in dS₄:
-$$
+```math
 T^\mu{}_\mu^{\text{anomaly}} = \frac{N_s}{2880\pi^2}\,E_4 = \frac{4\times24H^4}{2880\pi^2} = \frac{H^4}{30\pi^2}
-$$
-$$
+```
+```math
 \delta\rho_{\text{vac}} = \frac{T^\mu{}_\mu}{4} \approx 8.4\times10^{-4}\,H^4 \quad \Rightarrow\quad \delta\lambda/\lambda = H^2 \sim 10^{-122}\text{ today}
-$$
+```
 
 This is the standard Gibbons-Hawking (1977) / Birrell-Davies (1982) result: the trace anomaly in de Sitter gives only curvature-squared terms ∝ H⁴. **No constant (M_Pl^4) term is present.Summary: Ward identity holds at one loop**
 
@@ -4891,7 +5096,9 @@ These are 44 to 119 orders of magnitude above `λ_obs`. Two consistent mechanism
 
 **Mechanism B — Reflexivity-native sequestration.** The partition function of the full Reflexivity+SM system is
 
-$$\mathcal{Z} = \int \mathcal{D}\varphi\,\mathcal{D}\psi\,\mathcal{D}g\,\mathcal{D}\lambda\;e^{i[S_{\rm Sym} + S_{\rm SM} - \lambda(I(\varphi,s_0) - I_{\min})]}.$$
+```math
+\mathcal{Z} = \int \mathcal{D}\varphi\,\mathcal{D}\psi\,\mathcal{D}g\,\mathcal{D}\lambda\;e^{i[S_{\rm Sym} + S_{\rm SM} - \lambda(I(\varphi,s_0) - I_{\min})]}.
+```
 
 Integrating out SM fields yields `Γ_SM[g]` with `−∫d⁴x√g ρ_SM_vac` contributing to the **metric equations** but **not** to the constraint equation `δS/δλ = 0 ⇒ I(φ,s₀) = I_min` (independent of ψ). The value of λ is determined entirely by Reflexivity field equations; SM vacuum energy shifts `g_μν` (and hence H) but **not** `λ_eff`. The global Lagrange multiplier structure sequesters SM vacuum energy from the CC.
 
@@ -4932,7 +5139,9 @@ Reflexivity occupies the same structural class as unimodular gravity and Kaloper
 
 ### 12.31.6 Verdict
 
-$$\boxed{\textbf{PASS}}$$
+```math
+\boxed{\textbf{PASS}}
+```
 
 Reflexivity provides a mathematically explicit, multi-component mechanism explaining why the naive large QFT vacuum energy `M_Pl⁴` does not contribute to the observed CC: (✓) no bare CC (Lagrange multiplier structure); (✓) conformal weight filter screens constant contributions (Weyl consistency); (✓) one-loop Ward identity proven — all Reflexivity loops give `O(H⁴)`, no `O(M_Pl⁴)`; (✓) SM vacuum energy sequestered by global compatibility constraint; (✓) running vacuum — CC tracks `H²`, never accumulates; (✓) result `λ = Ω_Λ H₀² = 2.39×10⁻¹²¹ M_Pl²` with zero ad hoc parameters. The mechanism is structurally equivalent to unimodular gravity + Kaloper-Padilla sequestering, but derived internally from the Reflexivity coset geometry and compatibility constraint.
 
@@ -4951,7 +5160,9 @@ Reflexivity provides a mathematically explicit, multi-component mechanism explai
 
 THEN
 
-$$\lambda = c \cdot H^2 \quad \text{to all orders in perturbation theory}$$
+```math
+\lambda = c \cdot H^2 \quad \text{to all orders in perturbation theory}
+```
 
 where c is a dimensionless constant fixed at one loop and not running under the renormalization group.
 
@@ -4973,7 +5184,9 @@ where c is a dimensionless constant fixed at one loop and not running under the 
 
 **Step 7 — `c` is fixed at one loop and does not run.** §§12.31.2 and 12.20 give `c = Ω_Λ ≈ 0.685` via one-loop matching. Since `λ/H²` is Weyl-invariant (both weight −2), it is RG-invariant: `μ d(λ/H²)/dμ = 0 ⟹ c` does not run, so `λ = Ω_Λ · H²` at all scales and to all loop orders.
 
-$$\boxed{\lambda = \Omega_\Lambda H^2 \text{ to all orders}} \quad \text{QED (conditional on A, B)}$$
+```math
+\boxed{\lambda = \Omega_\Lambda H^2 \text{ to all orders}} \quad \text{QED (conditional on A, B)}
+```
 
 ---
 
@@ -5007,7 +5220,9 @@ Items 1–3 are standard mathematical physics, not Reflexivity-internal derivati
 
 **Theorem (Sequestration at 2 loops).** In the Reflexivity+SM effective action, the compatibility constraint C(φ, g) receives at most **Planck-squared suppressed** corrections from mixed SM-Reflexivity topologies at 2 loops:
 
-$$\delta C^{\rm 2\text{-}loop}_{\rm mixed} \;\lesssim\; \frac{1}{(16\pi^2)^2} \cdot \frac{m_{\rm SM}^2}{M_{\rm Pl}^2} \cdot \frac{H^2}{M_{\rm Pl}^2} \cdot H^2$$
+```math
+\delta C^{\rm 2\text{-}loop}_{\rm mixed} \;\lesssim\; \frac{1}{(16\pi^2)^2} \cdot \frac{m_{\rm SM}^2}{M_{\rm Pl}^2} \cdot \frac{H^2}{M_{\rm Pl}^2} \cdot H^2
+```
 
 Consequently, the shift δλ/λ from 2-loop mixed operators is bounded by ~10⁻⁴⁸ — utterly negligible relative to both λ itself and any current or foreseeable observational precision.
 
@@ -5044,11 +5259,15 @@ Every 2-loop mixed topology with ψ in internal lines has at least 1 graviton ex
 
 **Step 5 — Combining factors.** A 2-loop mixed operator in C has coefficient bounded by:
 
-$$\left|\delta C^{(2\text{-loop, mixed})}\right| \lesssim \underbrace{\frac{1}{(16\pi^2)^2}}_{\text{2-loop factor}} \cdot \underbrace{\frac{m_{\rm SM}^2}{M_{\rm Pl}^2}}_{\text{SM loop}} \cdot \underbrace{\frac{H^2}{M_{\rm Pl}^2}}_{\text{gravity exchange}} \cdot \underbrace{H^2}_{\text{dim-2 scalar}}$$
+```math
+\left|\delta C^{(2\text{-loop, mixed})}\right| \lesssim \underbrace{\frac{1}{(16\pi^2)^2}}_{\text{2-loop factor}} \cdot \underbrace{\frac{m_{\rm SM}^2}{M_{\rm Pl}^2}}_{\text{SM loop}} \cdot \underbrace{\frac{H^2}{M_{\rm Pl}^2}}_{\text{gravity exchange}} \cdot \underbrace{H^2}_{\text{dim-2 scalar}}
+```
 
 For m_SM = m_top = 173 GeV and H = H_inf ~ 10¹³ GeV:
 
-$$\frac{\delta\lambda}{\lambda} \lesssim \frac{1}{(16\pi^2)^2} \cdot \left(\frac{m_{\rm top}}{M_{\rm Pl}}\right)^2 \cdot \left(\frac{H_{\rm inf}}{M_{\rm Pl}}\right)^2 \approx 4 \times 10^{-5} \cdot 5 \times 10^{-33} \cdot 2 \times 10^{-11} \approx 4 \times 10^{-48}$$
+```math
+\frac{\delta\lambda}{\lambda} \lesssim \frac{1}{(16\pi^2)^2} \cdot \left(\frac{m_{\rm top}}{M_{\rm Pl}}\right)^2 \cdot \left(\frac{H_{\rm inf}}{M_{\rm Pl}}\right)^2 \approx 4 \times 10^{-5} \cdot 5 \times 10^{-33} \cdot 2 \times 10^{-11} \approx 4 \times 10^{-48}
+```
 
 This is **43 orders of magnitude below any conceivable precision** in λ measurement. Condition (B) is therefore verified at 2 loops for practical purposes. ∎
 
@@ -5058,7 +5277,9 @@ This is **43 orders of magnitude below any conceivable precision** in λ measure
 
 The theorem above rules out any observationally-relevant contamination of λ from 2-loop mixed SM-Reflexivity operators. Since higher-loop topologies are even more suppressed (each additional graviton exchange gives another 1/M_Pl² factor, each additional loop another 1/16π²), the all-orders bound is at least as tight as the 2-loop bound:
 
-$$\delta\lambda/\lambda|_{\rm all\text{-}orders\ mixed} \lesssim 10^{-48}$$
+```math
+\delta\lambda/\lambda|_{\rm all\text{-}orders\ mixed} \lesssim 10^{-48}
+```
 
 Equivalently: **mixed SM-Reflexivity contamination of the Reflexivity constraint is** structurally Planck-suppressed to all orders, with the 2-loop bound being saturated — higher loops only tighten it.
 
@@ -5167,9 +5388,9 @@ The remaining formal gap (fully rigorous all-orders proof) is an academic cleanu
 
 **29/29 checks: PASS ✓**
 
-$$
+```math
 \boxed{\textbf{PASS}}
-$$
+```
 
 No contradiction with GR, QFT, thermodynamics, cosmology, structure formation, or precision observational bounds at any tested level. The one structural distinction from ΛCDM — the static versus running interpretation of w_DE — is resolved in favor of the static (w = −1) interpretation, which is fully consistent with all current data and leaves the mild running as a future distinguishing prediction.
 
@@ -5201,7 +5422,9 @@ The coset SO(4,1)/SO(3,1) has 4 broken generators: one timelike (→ Trunk, the 
 
 In the Reflexivity sector, the only massive field at the inflation scale is the Trunk with `m_Trunk² = (20/27) H_inf²` (from `V_eff''(v₀)`, §12.22). The right-handed neutrinos `N_R^a` acquire mass through Trunk coupling at the coset boundary (Trunk as the temporal pNGB direction couples to the spatial pNGB sector). The natural Majorana mass:
 
-$$\boxed{M_R = m_{\rm Trunk} = \sqrt{\tfrac{20}{27}}\,H_{\inf} = 0.8607 \times 1.22 \times 10^{14}\,{\rm GeV} = 1.05 \times 10^{14}\,{\rm GeV}}$$
+```math
+\boxed{M_R = m_{\rm Trunk} = \sqrt{\tfrac{20}{27}}\,H_{\inf} = 0.8607 \times 1.22 \times 10^{14}\,{\rm GeV} = 1.05 \times 10^{14}\,{\rm GeV}}
+```
 
 Only mass scale available in the Reflexivity sector; **derived** (from potential curvature at `v₀ = π/2`), not assumed.
 
@@ -5209,7 +5432,9 @@ Only mass scale available in the Reflexivity sector; **derived** (from potential
 
 Spatial pNGBs couple to SM fermions through standard pNGB axial interaction `L ⊃ (1/f_a) π^a ∂_μ(ν̄_L^a γ^μ γ₅ N_R^a) + h.c.` with `f_a = H_inf` (pNGB decay constant, Reflexivity EFT cutoff). At energies below `M_R`, integrating out `N_R^a` and matching to an effective Yukawa:
 
-$$Y_\nu = \frac{m_{\rm Trunk}}{H_{\inf}} = \sqrt{\frac{128}{81}}$$
+```math
+Y_\nu = \frac{m_{\rm Trunk}}{H_{\inf}} = \sqrt{\frac{128}{81}}
+```
 
 using the canonical Trunk mass from §12.34.2 (post-Schur; the earlier §12.22.1 uncorrected `√(20/27)` is superseded). Yukawa equals Casimir eigenvalue `√C₂(Trunk) = √(128/81)` — **derived from coset geometry**, no free parameter in `Y²` derivation (framework α_U accounting per F4, §29.13.4).
 
@@ -5219,11 +5444,15 @@ using the canonical Trunk mass from §12.34.2 (post-Schur; the earlier §12.22.1
 
 After electroweak symmetry breaking (`H → v_EW/√2`, `v_EW = 246 GeV`): `m_Dirac = Y_ν × v_EW/√2 = √(128/81) × 173.9 GeV = 218.6 GeV`. Type-I seesaw gives `m_ν = m_Dirac²/M_R`. The crucial question is **which scale sets M_R**. In Reflexivity the seesaw scale is not `m_Trunk` itself but the geometric mean derived in §12.49 from the coset partition `1/3 : 2/3`:
 
-$$M_R = m_{\rm Trunk}^{1/3} \times M_{\rm Pl}^{2/3} \approx 5.25 \times 10^{16}\,{\rm GeV}$$
+```math
+M_R = m_{\rm Trunk}^{1/3} \times M_{\rm Pl}^{2/3} \approx 5.25 \times 10^{16}\,{\rm GeV}
+```
 
 Substituting:
 
-$$\boxed{m_\nu^{(1)} = \frac{Y_\nu^2\, v_{\rm EW}^2}{2\,M_R} = \frac{(128/81) \times (246\,{\rm GeV})^2}{2 \times 5.25\times10^{16}\,{\rm GeV}} \approx 0.91\,{\rm meV}}$$
+```math
+\boxed{m_\nu^{(1)} = \frac{Y_\nu^2\, v_{\rm EW}^2}{2\,M_R} = \frac{(128/81) \times (246\,{\rm GeV})^2}{2 \times 5.25\times10^{16}\,{\rm GeV}} \approx 0.91\,{\rm meV}}
+```
 
 Canonical 0.91 meV uses framework's Yukawa `Y² = 128/81` from pNGB-vertex Schur factor (§12.25.11); simpler `Y=1` convention (§12.49.3) gives 0.58 meV as lower bound. Both in PTOLEMY-testable window; the 0.58–0.91 meV range reflects `Y²` convention choice.
 
@@ -5264,7 +5493,9 @@ The heavier neutrino generations (`m₂ = 8.69 meV`, `m₃ = 50.1 meV`) require 
 
 **New prediction added (P3):**
 
-$$\boxed{m_{\nu}^{(1)} = \frac{Y_\nu^2\, v_{\rm EW}^2}{2\, M_R} = \frac{(128/81)\,(246\,{\rm GeV})^2}{2 \times 5.25\times10^{16}\,{\rm GeV}} \approx 0.91\,{\rm meV}}$$
+```math
+\boxed{m_{\nu}^{(1)} = \frac{Y_\nu^2\, v_{\rm EW}^2}{2\, M_R} = \frac{(128/81)\,(246\,{\rm GeV})^2}{2 \times 5.25\times10^{16}\,{\rm GeV}} \approx 0.91\,{\rm meV}}
+```
 
 This is the **seventh prediction** from the Reflexivity framework. It is specific, new, and falsifiable. The factor 128/81 = 2⁷/3⁴ comes from the octahedral Schur integral (§12.42), not from §12.22's CMB normalization.
 
@@ -5293,16 +5524,24 @@ This is the **seventh prediction** from the Reflexivity framework. It is specifi
 **The uniqueness argument:**
 
 The most general lowest-order function satisfying the first four constraints is:
-$$b_t(\rho) = \kappa H_{\inf}^2\,\rho^2(1 - A^2\rho^2)^n \qquad n \in \mathbb{Z}^+$$
+```math
+b_t(\rho) = \kappa H_{\inf}^2\,\rho^2(1 - A^2\rho^2)^n \qquad n \in \mathbb{Z}^+
+```
 
 The stationary-point condition db_t/dρ = 0 (for ρ ≠ 0) gives:
-$$\frac{db_t}{d\rho} = 2\kappa H_{\inf}^2\,\rho(1-A^2\rho^2)^{n-1}\bigl[1-(n+1)A^2\rho^2\bigr] = 0$$
+```math
+\frac{db_t}{d\rho} = 2\kappa H_{\inf}^2\,\rho(1-A^2\rho^2)^{n-1}\bigl[1-(n+1)A^2\rho^2\bigr] = 0
+```
 
 The non-trivial stationary point satisfies:
-$$A^2\rho_*^2 = \frac{1}{n+1}$$
+```math
+A^2\rho_*^2 = \frac{1}{n+1}
+```
 
 **The Fubini-Study equatorial condition** (from coset geometry): the equatorial point v₀ of the state space satisfies A²v₀² = 1/3 (derived in §12.19). Setting ρ_* = v₀:
-$$\frac{1}{n+1} = \frac{1}{3} \implies n+1 = 3 \implies \boxed{n = 2}$$
+```math
+\frac{1}{n+1} = \frac{1}{3} \implies n+1 = 3 \implies \boxed{n = 2}
+```
 
 **Table: only n = 2 is consistent with the coset geometry:**
 
@@ -5320,48 +5559,68 @@ The potential form b_t = κH_inf²ρ²(1−A²ρ²)² is the unique lowest-order
 ### 12.34.2 Explicit V_eff'' Calculation: m_Trunk² = (128/81)H_inf²
 
 **Setup:**
-$$V_{\rm eff}(\rho) = -b_t(\rho) + \lambda\bigl(I_{\min} - I(\rho,s_0)\bigr)$$
+```math
+V_{\rm eff}(\rho) = -b_t(\rho) + \lambda\bigl(I_{\min} - I(\rho,s_0)\bigr)
+```
 
 **Step 1 — Second derivative of b_t at v₀:**
 
 Substituting u = Aρ (so u₀ = Av₀ = A×π/2 = 1/√3):
-$$b_t = \frac{\kappa H_{\inf}^2}{A^2}\,u^2(1-u^2)^2$$
+```math
+b_t = \frac{\kappa H_{\inf}^2}{A^2}\,u^2(1-u^2)^2
+```
 
 Computing d²/du²[u²(1−u²)²] = 2(1−3u²)² − 12u²(1−u²). At u₀ = 1/√3 where (1−3u₀²) = 0:
-$$\frac{d^2b_t}{d\rho^2}\bigg|_{v_0} = \kappa H_{\inf}^2 \times \frac{d^2}{du^2}\bigl[u^2(1-u^2)^2\bigr]\bigg|_{u_0} = \kappa H_{\inf}^2 \times \left(-\frac{8}{3}\right)$$
+```math
+\frac{d^2b_t}{d\rho^2}\bigg|_{v_0} = \kappa H_{\inf}^2 \times \frac{d^2}{du^2}\bigl[u^2(1-u^2)^2\bigr]\bigg|_{u_0} = \kappa H_{\inf}^2 \times \left(-\frac{8}{3}\right)
+```
 
 **Step 2 — Second derivative of I(ρ,s₀) at v₀:**
 
 Along the radial geodesic of the Fubini-Study manifold:
-$$I(\rho) = \cos^2\!\left(\frac{\rho}{2}\right)$$
+```math
+I(\rho) = \cos^2\!\left(\frac{\rho}{2}\right)
+```
 
 *Verification:* I(0) = 1 ✓; I(π/2) = cos²(π/4) = 1/2 = I_min ✓
 
-$$\frac{d^2I}{d\rho^2} = -\frac{\cos\rho}{2} \implies \left.\frac{d^2I}{d\rho^2}\right|_{v_0=\pi/2} = -\frac{\cos(\pi/2)}{2} = 0$$
+```math
+\frac{d^2I}{d\rho^2} = -\frac{\cos\rho}{2} \implies \left.\frac{d^2I}{d\rho^2}\right|_{v_0=\pi/2} = -\frac{\cos(\pi/2)}{2} = 0
+```
 
 **Step 3 — Raw curvature of V_eff:**
 
 From $V_{\rm eff} = -b_t + \lambda(I_{\min} - I)$, differentiating twice gives $V_{\rm eff}'' = -b_t'' - \lambda I''$ (the $I_{\min}$ constant drops). At $v_0$:
 
-$$V_{\rm eff}''(v_0) = -b_t''(v_0) - \lambda I''(v_0) = -\left(-\tfrac{8}{3}\kappa H_{\inf}^2\right) - \lambda \cdot 0 = \frac{8}{3}\,\kappa H_{\inf}^2$$
+```math
+V_{\rm eff}''(v_0) = -b_t''(v_0) - \lambda I''(v_0) = -\left(-\tfrac{8}{3}\kappa H_{\inf}^2\right) - \lambda \cdot 0 = \frac{8}{3}\,\kappa H_{\inf}^2
+```
 
 **Step 4 — Metric normalization factor (canonical mass):**
 
 The radial-direction normalization factor at v₀ used in this derivation is:
-$$\frac{1}{(1-A^2v_0^2)^2} = \frac{1}{(2/3)^2} = \frac{9}{4}$$
+```math
+\frac{1}{(1-A^2v_0^2)^2} = \frac{1}{(2/3)^2} = \frac{9}{4}
+```
 
 *Convention note.* This is a **potential-shape factor** from the structure of $b_t$ at the equatorial vacuum, NOT the Fubini-Study kinetic metric of the coset. See §12.39.4 for the explicit audit: the true FS kinetic metric at v₀ from the SO(4,1) complementary-series two-point function is $g_{\rho\rho}^{\rm FS}(v_0) \approx 1.0725$. The derivation below remains correct because the overall scale κH² absorbs the convention difference (see §12.39.4 table), and all downstream observables (n_s, λ, η_B, m_ν) are independent of κ. Prior drafts labeled this factor "FS metric"; §12.39 establishes the correct reading.
 
 Taking the inverse factor 4/9 and multiplying:
-$$m_{\rm Trunk}^2 \propto \frac{4}{9} \times \frac{8}{3}\,\kappa H_{\inf}^2 = \frac{32}{27}\,\kappa H_{\inf}^2$$
+```math
+m_{\rm Trunk}^2 \propto \frac{4}{9} \times \frac{8}{3}\,\kappa H_{\inf}^2 = \frac{32}{27}\,\kappa H_{\inf}^2
+```
 
 **Step 5 — Octahedral Schur normalization (§12.42):**
 
 The octahedral group O (order 24) acts on the three spatial pNGBs via its defining 3-dim irrep T₁. Schur orthogonality gives the kinetic normalization Z_O = 3/4, so the canonical mass correction factor is Z_O⁻¹ = 4/3:
-$$\kappa H_{\inf}^2 \times Z_O^{-1} = \frac{32}{27} \times \frac{4}{3} = \frac{128}{81}\,H_{\inf}^2 \quad \text{(§12.42: } Z_O = 3/4 \text{ from octahedral Schur)}$$
+```math
+\kappa H_{\inf}^2 \times Z_O^{-1} = \frac{32}{27} \times \frac{4}{3} = \frac{128}{81}\,H_{\inf}^2 \quad \text{(§12.42: } Z_O = 3/4 \text{ from octahedral Schur)}
+```
 
 **Step 6 — Combined result:**
-$$\boxed{m_{\rm Trunk}^2 = \frac{32}{27} \times \frac{4}{3}\,H_{\inf}^2 = \frac{128}{81}\,H_{\inf}^2}$$
+```math
+\boxed{m_{\rm Trunk}^2 = \frac{32}{27} \times \frac{4}{3}\,H_{\inf}^2 = \frac{128}{81}\,H_{\inf}^2}
+```
 
 Arithmetic verification: 32/27 × 4/3 = (32×4)/(27×3) = 128/81 ✓ (where 4/3 = Z_O⁻¹ from octahedral Schur integral, §12.42)
 
@@ -5385,10 +5644,14 @@ Under conformal rescaling g_μν → e^{2σ}g_μν:
 - Therefore I(φ,s₀) = |⟨Ψ(φ),Ψ(s₀)⟩|² is **Weyl-invariant** — it is a function only of the coset field values, with no metric dependence
 
 This means:
-$$\delta_{\rm Weyl}\,I(\varphi,s_0) = 0 \qquad [\text{weight 0}]$$
+```math
+\delta_{\rm Weyl}\,I(\varphi,s_0) = 0 \qquad [\text{weight 0}]
+```
 
 Combined with d⁴x√-g (weight +4) and λ (weight −2):
-$$\delta_{\rm Weyl}\left[\sqrt{-g}\,\lambda(I_{\min}-I)\right] = (+4-2+0)\,\sigma\,\times\,[\ldots] = +2\sigma\,\times\,[\ldots]$$
+```math
+\delta_{\rm Weyl}\left[\sqrt{-g}\,\lambda(I_{\min}-I)\right] = (+4-2+0)\,\sigma\,\times\,[\ldots] = +2\sigma\,\times\,[\ldots]
+```
 
 This matches the kinetic term (+2) and b_t term (+2). **All three action terms have identical conformal weight +2. The Weyl consistency proof is complete.** ∎
 
@@ -5417,7 +5680,9 @@ This matches the kinetic term (+2) and b_t term (+2). **All three action terms h
 
 The proof has three steps, all following from previously established results:
 
-$$n = 2 \;\xrightarrow{\text{Sec. 12.34.1}}\; p = 2 \;\xrightarrow{\text{slow-roll}}\; n_s = 1 - \tfrac{2}{N_e} = 0.9667$$
+```math
+n = 2 \;\xrightarrow{\text{Sec. 12.34.1}}\; p = 2 \;\xrightarrow{\text{slow-roll}}\; n_s = 1 - \tfrac{2}{N_e} = 0.9667
+```
 
 ---
 
@@ -5425,7 +5690,9 @@ $$n = 2 \;\xrightarrow{\text{Sec. 12.34.1}}\; p = 2 \;\xrightarrow{\text{slow-ro
 
 From §12.34.1: the branching potential is $b_t(\rho) = \kappa\rho^2(1-A^2\rho^2)^2$ (n=2 uniquely forced). Near the vacuum $v_0 = \pi/2$ where $b_t'(v_0) = 0$:
 
-$$b_t(v_0 - \delta) \approx b_t(v_0) - \tfrac{1}{2}|b_t''(v_0)|\,\delta^2 + O(\delta^3)$$
+```math
+b_t(v_0 - \delta) \approx b_t(v_0) - \tfrac{1}{2}|b_t''(v_0)|\,\delta^2 + O(\delta^3)
+```
 
 Since $b_t''(v_0) < 0$ (computed in §12.34.2, Step 1: $b_t''(v_0) = -(8/3)\kappa H_{\inf}^2$), the potential has a **quadratic maximum** at $v_0$. In canonical field coordinates, this is a power-law hilltop with exponent $p = 2$.
 
@@ -5434,28 +5701,42 @@ Since $b_t''(v_0) < 0$ (computed in §12.34.2, Step 1: $b_t''(v_0) = -(8/3)\kapp
 ### 12.35.3 Step B — Spectral Index for Power-Law Hilltop
 
 For a power-law hilltop potential $V = V_0[1-(\phi/\mu)^p]$ (in canonical field $\phi$), the slow-roll parameters near the top are:
-$$\eta = \frac{M_{\rm Pl}^2 V''}{V} = -\frac{p(p-1)M_{\rm Pl}^2}{\mu^2} \cdot \frac{(\phi/\mu)^{p-2}}{1-(\phi/\mu)^p}$$
+```math
+\eta = \frac{M_{\rm Pl}^2 V''}{V} = -\frac{p(p-1)M_{\rm Pl}^2}{\mu^2} \cdot \frac{(\phi/\mu)^{p-2}}{1-(\phi/\mu)^p}
+```
 
 For **p = 2** near $\phi \approx 0$ (the hilltop):
-$$\eta \approx -\frac{2M_{\rm Pl}^2}{\mu^2}$$
+```math
+\eta \approx -\frac{2M_{\rm Pl}^2}{\mu^2}
+```
 
 The e-fold count from the hilltop:
-$$N_e = \frac{1}{M_{\rm Pl}^2}\int_0^{\phi_{\rm CMB}} \frac{V}{|V'|}\,d\phi \approx \frac{\mu^2}{2M_{\rm Pl}^2} + O\!\left(\frac{\phi_{\rm CMB}^2}{\mu^2}\right)$$
+```math
+N_e = \frac{1}{M_{\rm Pl}^2}\int_0^{\phi_{\rm CMB}} \frac{V}{|V'|}\,d\phi \approx \frac{\mu^2}{2M_{\rm Pl}^2} + O\!\left(\frac{\phi_{\rm CMB}^2}{\mu^2}\right)
+```
 
 Setting $N_e \approx \mu^2/(2M_{\rm Pl}^2)$:
-$$\eta_{\rm CMB} = -\frac{2M_{\rm Pl}^2}{\mu^2} = -\frac{1}{N_e}$$
+```math
+\eta_{\rm CMB} = -\frac{2M_{\rm Pl}^2}{\mu^2} = -\frac{1}{N_e}
+```
 
 Since $\varepsilon \approx 0$ at the hilltop ($V' \approx 0$), the spectral index is:
-$$n_s - 1 = 2\eta_{\rm CMB} - 6\varepsilon \approx 2\eta_{\rm CMB} = -\frac{2}{N_e}$$
+```math
+n_s - 1 = 2\eta_{\rm CMB} - 6\varepsilon \approx 2\eta_{\rm CMB} = -\frac{2}{N_e}
+```
 
-$$\boxed{n_s = 1 - \frac{2}{N_e}}$$
+```math
+\boxed{n_s = 1 - \frac{2}{N_e}}
+```
 
 ---
 
 ### 12.35.4 Step C — Numerical Result
 
 With $N_e = 60$ (required by flatness + horizon problems):
-$$n_s = 1 - \frac{2}{60} = 1 - \frac{1}{30} = \frac{29}{30} = 0.\overline{9}6\overline{6} \approx \mathbf{0.9667}$$
+```math
+n_s = 1 - \frac{2}{60} = 1 - \frac{1}{30} = \frac{29}{30} = 0.\overline{9}6\overline{6} \approx \mathbf{0.9667}
+```
 
 **Comparison with observation (April 2026).** The benchmark values and framework deviations are:
 
@@ -5491,15 +5772,21 @@ The framework is consistent with all CMB-only measurements at under 1σ. The >2�
 ### 12.35.6 Consistency with m_Trunk² = (128/81)H_inf²
 
 From n_s = 0.9667 [§12.35] and the slow-roll:
-$$\eta_{\rm CMB} = -\tfrac{1}{N_e} \implies m_{\rm eff}^2(\rho_{\rm CMB}) = 3|\eta_{\rm CMB}|H_{\inf}^2 = \tfrac{H_{\inf}^2}{20}$$
+```math
+\eta_{\rm CMB} = -\tfrac{1}{N_e} \implies m_{\rm eff}^2(\rho_{\rm CMB}) = 3|\eta_{\rm CMB}|H_{\inf}^2 = \tfrac{H_{\inf}^2}{20}
+```
 
 The vacuum mass: $m_{\rm Trunk}^2 = (128/81)H_{\inf}^2$ (§12.22).
 
 The ratio:
-$$\frac{m_{\rm Trunk}^2}{m_{\rm eff}^2(\rho_{\rm CMB})} = \frac{128/81}{1/20} = \frac{400}{27}$$
+```math
+\frac{m_{\rm Trunk}^2}{m_{\rm eff}^2(\rho_{\rm CMB})} = \frac{128/81}{1/20} = \frac{400}{27}
+```
 
 This ratio equals the product of:
-$$\frac{|b_t''(v_0)|}{|b_t''(\rho_{\rm CMB})|} \times \frac{g_{\rho\rho}(\rho_{\rm CMB})}{g_{\rho\rho}(v_0)} = \frac{8/3}{2} \times \frac{g_{\rho\rho}(0)}{g_{\rho\rho}(v_0)} = \frac{4}{3} \times \frac{100}{9} = \frac{400}{27} \checkmark$$
+```math
+\frac{|b_t''(v_0)|}{|b_t''(\rho_{\rm CMB})|} \times \frac{g_{\rho\rho}(\rho_{\rm CMB})}{g_{\rho\rho}(v_0)} = \frac{8/3}{2} \times \frac{g_{\rho\rho}(0)}{g_{\rho\rho}(v_0)} = \frac{4}{3} \times \frac{100}{9} = \frac{400}{27} \checkmark
+```
 
 The factor $g_{\rho\rho}(0)/g_{\rho\rho}(v_0) = 100/9$ is a specific prediction for the Fubini-Study metric on the SO(4,1)/SO(3,1) coset. This is the §12.22 9/10 gap: computing this ratio from the SO(4,1) representation theory would close the remaining step in the §12.22 derivation.
 
@@ -5511,7 +5798,9 @@ The factor $g_{\rho\rho}(0)/g_{\rho\rho}(v_0) = 100/9$ is a specific prediction 
 
 **Finding: clean derivation, defensible grade, with one clearly-stated structural input.** The chain
 
-$$n=2 \text{ (§12.34.1)} \longrightarrow p=2 \text{ (quadratic hilltop)} \longrightarrow n_s = 1 - \frac{2}{N_e}$$
+```math
+n=2 \text{ (§12.34.1)} \longrightarrow p=2 \text{ (quadratic hilltop)} \longrightarrow n_s = 1 - \frac{2}{N_e}
+```
 
 is algebraically clean — no artefactual factors, no missing FS factor, no Schur-type ambiguity. Steps A and B are standard slow-roll; Step A's `n=2` conclusion is forced uniquely by the framework's `A²v₀² = 1/3` condition.
 
@@ -5548,7 +5837,9 @@ The Reflexivity sector (Trunk ρ, spatial pNGBs `π^a`, Lagrange multiplier λ) 
 
 **Channel 1 — Trunk-Higgs Portal.** The Trunk ρ is a scalar under SO(3,1); leading-order SO(3,1)-invariant coupling to the Higgs:
 
-$$\mathcal{L}_1 = \lambda_{TH}\,\rho^2\,H^\dagger H, \qquad \lambda_{TH} = \frac{128}{81}\left(\frac{H_{\inf}}{M_{\rm Pl}}\right)^2 = 1.58 \times 10^{-10}$$
+```math
+\mathcal{L}_1 = \lambda_{TH}\,\rho^2\,H^\dagger H, \qquad \lambda_{TH} = \frac{128}{81}\left(\frac{H_{\inf}}{M_{\rm Pl}}\right)^2 = 1.58 \times 10^{-10}
+```
 
 Trunk-Higgs mixing angle `θ_mix = λ_TH v_EW²/m_H² = 6.12 × 10⁻¹⁰`; all SM particles acquire Trunk-mediated effective couplings `g_eff(ψ) = (m_ψ/v_EW) × θ_mix`:
 
@@ -5573,7 +5864,9 @@ Trunk-Higgs mixing angle `θ_mix = λ_TH v_EW²/m_H² = 6.12 × 10⁻¹⁰`; all
 
 At today's vacuum (`φ = v₀`, `∂φ ≈ 0`):
 
-$$S_{\rm Reflexivity} + S_{\rm SM} \;\longrightarrow\; S_{\rm EH} + S_{\rm CC} + S_{\rm SM}^{\rm standard} + S_{\rm int}$$
+```math
+S_{\rm Reflexivity} + S_{\rm SM} \;\longrightarrow\; S_{\rm EH} + S_{\rm CC} + S_{\rm SM}^{\rm standard} + S_{\rm int}
+```
 
 with `S_EH = (M_Pl²/2) ∫ R √-g d⁴x` (standard Einstein-Hilbert); `S_CC = λ_CC ∫ √-g d⁴x` with `λ_CC = Ω_Λ H₀²` (derived CC); `S_SM^standard` unchanged (sequestration theorem); `S_int` = the four coupling channels above, all suppressed by `(H_inf/M_Pl)² ~ 10⁻¹⁰`. **The Trunk decouples** (`m_Trunk = √(128/81) H_inf ≈ 10¹⁴ GeV ≫` all SM scales): at `E ≪ m_Trunk` the Trunk integrates out, leaving only its CC contribution and the residual couplings. **The pNGBs survive as axions** (massless in effective theory, protected by shift symmetry; couple to SM gauge fields through derivative interactions).
 
@@ -5605,7 +5898,9 @@ with `S_EH = (M_Pl²/2) ∫ R √-g d⁴x` (standard Einstein-Hilbert); `S_CC = 
 **Theorem 12.37.1 (E₈ Embedding).** The de Sitter algebra `𝔰𝔬(4,1)` — Lie algebra of G_seed — is a subalgebra of `𝔢_8`.
 
 **Explicit chain:**
-$$\mathfrak{so}(4,1) \cong C_2 \hookrightarrow C_3 \hookrightarrow D_6 \hookrightarrow D_6 \oplus A_1 \hookrightarrow \mathfrak{e}_7 \hookrightarrow \mathfrak{e}_7 \oplus A_1 \hookrightarrow \mathfrak{e}_8$$
+```math
+\mathfrak{so}(4,1) \cong C_2 \hookrightarrow C_3 \hookrightarrow D_6 \hookrightarrow D_6 \oplus A_1 \hookrightarrow \mathfrak{e}_7 \hookrightarrow \mathfrak{e}_7 \oplus A_1 \hookrightarrow \mathfrak{e}_8
+```
 
 | Step | Embedding | Dimensions | Verification |
 |---|---|---|---|
@@ -5619,14 +5914,18 @@ $$\mathfrak{so}(4,1) \cong C_2 \hookrightarrow C_3 \hookrightarrow D_6 \hookrigh
 **Algebraic key:** `𝔰𝔬(4,1) ⊗ ℂ = 𝔰𝔬(5,ℂ) ≅ 𝔰𝔭(4,ℂ) = C_2`. The embedding proceeds at the complex level, then restricts to the real form.
 
 **so(4,1) appears as a clean 10-block:** Under `C_3 → C_2 × A_1`:
-$$\text{adj}(C_3) = 21 \to \underbrace{10}_{\text{adj}(\mathfrak{so}(4,1))} + \underbrace{3}_{\text{adj}(A_1)} + \underbrace{8}_{\text{bifundamental}}$$
+```math
+\text{adj}(C_3) = 21 \to \underbrace{10}_{\text{adj}(\mathfrak{so}(4,1))} + \underbrace{3}_{\text{adj}(A_1)} + \underbrace{8}_{\text{bifundamental}}
+```
 Not mixed or entangled. ∎
 
 ### 12.37.2 Branching adj(E₈) → so(4,1)
 
 The 248-dim adjoint of E₈ branches:
 
-$$E_8 \xrightarrow{E_7 \times A_1} (133,1) + (1,3) + (56,2); \quad E_7 \xrightarrow{D_6 \times A_1} (66,1) + (1,3) + (32',2); \quad D_6 \xrightarrow{C_3} 21 + 3\times 15; \quad C_3 \xrightarrow{C_2 \times A_1} 10 + 3 + 8$$
+```math
+E_8 \xrightarrow{E_7 \times A_1} (133,1) + (1,3) + (56,2); \quad E_7 \xrightarrow{D_6 \times A_1} (66,1) + (1,3) + (32',2); \quad D_6 \xrightarrow{C_3} 21 + 3\times 15; \quad C_3 \xrightarrow{C_2 \times A_1} 10 + 3 + 8
+```
 
 The 10 generators of so(4,1) arise as the **unique distinguished 10-dim block** at the innermost level.
 
@@ -5715,7 +6014,9 @@ This section computes G_ρρ^{FS}(v₀) from the SO(4,1) complementary series tw
 
 For the Trunk field with the pre-§12.25.11 bare mass m²_Trunk/H² = 20/27, the conformal weight satisfies:
 
-$$\Delta(\Delta - 3) = 20/27 \;\Rightarrow\; \Delta = \frac{3 + \sqrt{9 + 80/27}}{2} = \frac{3 + \sqrt{323/27}}{2} \approx 3.22937582$$
+```math
+\Delta(\Delta - 3) = 20/27 \;\Rightarrow\; \Delta = \frac{3 + \sqrt{9 + 80/27}}{2} = \frac{3 + \sqrt{323/27}}{2} \approx 3.22937582
+```
 
 *(The expression √(323/27) in the discriminant is the correct radical for m²/H² = 20/27: the discriminant is 9 + 4·(20/27) = 243/27 + 80/27 = 323/27.)*
 
@@ -5741,7 +6042,9 @@ Substituting:
 
 = −(1/4)[−2.962963 − 1.327002] = −(1/4)(−4.289965)
 
-$$\boxed{g_{\rho\rho}^{\rm FS}(v_0) = 1.07249136 \approx 1.0725}$$
+```math
+\boxed{g_{\rho\rho}^{\rm FS}(v_0) = 1.07249136 \approx 1.0725}
+```
 
 ### 12.39.3 Sign Structure of G(θ)
 
@@ -5901,7 +6204,9 @@ The strongest test of the `m_1` prediction is **simultaneous confirmation of thr
 
 Over O (order 24, acting on ℝ³ as signed permutations of {e₁,e₂,e₃}):
 
-$$\mathcal{L}_{\rm kin}^O = \frac{1}{|O|}\sum_{g \in O} g^{FS}_{ab}\,\partial(g\varphi)^a\partial(g\varphi)^b$$
+```math
+\mathcal{L}_{\rm kin}^O = \frac{1}{|O|}\sum_{g \in O} g^{FS}_{ab}\,\partial(g\varphi)^a\partial(g\varphi)^b
+```
 
 The FS metric at v₀ = π/2 on the spatial block is g^{FS}_{ab} = (9/4)δ_{ab} (from (1−A²v₀²)⁻² = 9/4), isotropic and strictly O-invariant.
 
@@ -5909,17 +6214,23 @@ The FS metric at v₀ = π/2 on the spatial block is g^{FS}_{ab} = (9/4)δ_{ab} 
 
 The defining rep of O on ℝ³ is the 3-dim irrep T₁. Schur's first orthogonality relation gives:
 
-$$\frac{1}{|O|}\sum_{g}(g)_{ac}(g)_{bd} = \frac{1}{\dim T_1}\,\delta_{ab}\delta_{cd} = \frac{1}{3}\,\delta_{ab}\delta_{cd}$$
+```math
+\frac{1}{|O|}\sum_{g}(g)_{ac}(g)_{bd} = \frac{1}{\dim T_1}\,\delta_{ab}\delta_{cd} = \frac{1}{3}\,\delta_{ab}\delta_{cd}
+```
 
 Substituting into the kinetic term:
 
-$$\mathcal{L}_{\rm kin}^O = \frac{9}{4} \cdot \frac{1}{3}\,|\partial\varphi|^2 = \frac{3}{4}\,|\partial\varphi|^2$$
+```math
+\mathcal{L}_{\rm kin}^O = \frac{9}{4} \cdot \frac{1}{3}\,|\partial\varphi|^2 = \frac{3}{4}\,|\partial\varphi|^2
+```
 
 ### 12.42.3 The Normalization Z_O
 
 Matching to the vertex-sum Σ_v g^{FS}(v,v) = 6 × (9/4) = 27/2:
 
-$$Z_O = \frac{3/4 \cdot |O|}{27/2} \cdot \frac{1}{\dim G_{\rm seed}} \cdot 10 = \frac{3}{4}$$
+```math
+Z_O = \frac{3/4 \cdot |O|}{27/2} \cdot \frac{1}{\dim G_{\rm seed}} \cdot 10 = \frac{3}{4}
+```
 
 ### 12.42.4 Seesaw-Effective Mass Scale Y_ν² H² = 128/81 H²
 
@@ -5927,7 +6238,9 @@ $$Z_O = \frac{3/4 \cdot |O|}{27/2} \cdot \frac{1}{\dim G_{\rm seed}} \cdot 10 = 
 
 Folding Z_O = 3/4 (octahedral Schur factor on the pNGB-triplet kinetic term, §12.42.2) into the seesaw Yukawa coupling via pNGB vertex legs:
 
-$$\boxed{Y_\nu^2 \cdot H_{\inf}^2 = \frac{32}{27} \cdot Z_O^{-1} \cdot H_{\inf}^2 = \frac{32}{27} \cdot \frac{4}{3}\,H_{\inf}^2 = \frac{128}{81}\,H_{\inf}^2}$$
+```math
+\boxed{Y_\nu^2 \cdot H_{\inf}^2 = \frac{32}{27} \cdot Z_O^{-1} \cdot H_{\inf}^2 = \frac{32}{27} \cdot \frac{4}{3}\,H_{\inf}^2 = \frac{128}{81}\,H_{\inf}^2}
+```
 
 Equivalently, **Y_ν² = 128/81 ≈ 1.58** (dimensionless), the canonical Reflexivity Yukawa that enters the seesaw formula m_ν = Y_ν² v²/(2 M_R) of §12.49.3.
 
@@ -5946,7 +6259,9 @@ See §12.25.11 for the full cross-sector resolution with derivations.
 *The shortcut formula below conveys the structural role of $\sqrt{128/81}$ in the Yukawa but is **not the authoritative derivation** of the numerical value — that lives in §12.49.3, which uses the proper seesaw scale $M_R = m_{\rm Trunk}^{1/3} \cdot M_{\rm Pl}^{2/3} \approx 5.25\times10^{16}$ GeV.*
 
 Schematic form (not the quantitative prediction):
-$$m_\nu^{(1)} \propto \sqrt{\frac{128}{81}}\,\frac{v_{\rm EW}^2}{M_R}, \qquad M_R \text{ from §12.49}$$
+```math
+m_\nu^{(1)} \propto \sqrt{\frac{128}{81}}\,\frac{v_{\rm EW}^2}{M_R}, \qquad M_R \text{ from §12.49}
+```
 
 Numerical result (from §12.49.3): $m_\nu^{(1)} \approx 0.58$–$0.91$ meV depending on the $Y^2$ convention. The canonical Reflexivity value is 0.91 meV (using $Y^2 = 128/81$ from the pNGB-vertex Schur factor per §12.25.11); the simpler Y=1 convention gives 0.58 meV as a lower bound.
 
@@ -6002,37 +6317,53 @@ The final form `2/30²` identifies numerator 2 as the Merkaba doubling factor (�
 
 For the quadratic hilltop V(φ) = V₀(1 − (φ/μ)²), the slow-roll parameters are:
 
-$$\varepsilon = \frac{M_{\rm Pl}^2}{2}\left(\frac{V'}{V}\right)^2 = \frac{2 M_{\rm Pl}^2 \,\phi^2/\mu^4}{(1 - \phi^2/\mu^2)^2}, \qquad \eta = M_{\rm Pl}^2 \frac{V''}{V} = -\frac{2 M_{\rm Pl}^2/\mu^2}{1 - \phi^2/\mu^2}$$
+```math
+\varepsilon = \frac{M_{\rm Pl}^2}{2}\left(\frac{V'}{V}\right)^2 = \frac{2 M_{\rm Pl}^2 \,\phi^2/\mu^4}{(1 - \phi^2/\mu^2)^2}, \qquad \eta = M_{\rm Pl}^2 \frac{V''}{V} = -\frac{2 M_{\rm Pl}^2/\mu^2}{1 - \phi^2/\mu^2}
+```
 
 Near the hilltop (φ ≪ μ): ε ≈ 2M_Pl²φ²/μ⁴ and η ≈ −2M_Pl²/μ².
 
 The e-fold count from horizon crossing (φ = φ*) to inflation's end (φ = φ_end):
 
-$$N_e = \int_{\phi_*}^{\phi_{\rm end}} \frac{V}{M_{\rm Pl}^2 V'}\, d\phi = \frac{1}{4 M_{\rm Pl}^2}\left[\mu^2 \ln(\phi/\phi_*) - \phi^2\right]_{\phi_*}^{\phi_{\rm end}}$$
+```math
+N_e = \int_{\phi_*}^{\phi_{\rm end}} \frac{V}{M_{\rm Pl}^2 V'}\, d\phi = \frac{1}{4 M_{\rm Pl}^2}\left[\mu^2 \ln(\phi/\phi_*) - \phi^2\right]_{\phi_*}^{\phi_{\rm end}}
+```
 
 For hilltop slow-roll with μ ≫ M_Pl, the log term dominates and gives N_e ≈ μ²/(2M_Pl²) (§12.35.3 convention). Then at horizon crossing:
 
-$$\eta_* = -\frac{2 M_{\rm Pl}^2}{\mu^2} = -\frac{1}{N_e}$$
+```math
+\eta_* = -\frac{2 M_{\rm Pl}^2}{\mu^2} = -\frac{1}{N_e}
+```
 
-$$n_s - 1 = 2\eta_* - 6\varepsilon_* \approx 2\eta_* = -\frac{2}{N_e} \quad\Rightarrow\quad n_s = 1 - \frac{2}{N_e}$$
+```math
+n_s - 1 = 2\eta_* - 6\varepsilon_* \approx 2\eta_* = -\frac{2}{N_e} \quad\Rightarrow\quad n_s = 1 - \frac{2}{N_e}
+```
 
 For the tensor-to-scalar ratio, ε* at horizon crossing can be extracted from the slow-roll relation:
 
-$$\varepsilon_* = \frac{2 M_{\rm Pl}^2}{\mu^4} \phi_*^2$$
+```math
+\varepsilon_* = \frac{2 M_{\rm Pl}^2}{\mu^4} \phi_*^2
+```
 
 For the quadratic hilltop with N_e = μ²/(2M_Pl²), one finds φ*²/μ² ≈ 2N_e · M_Pl²/μ² · e^(−2) (from the log integration), which simplifies such that:
 
-$$\varepsilon_* = \frac{1}{2 N_e^2}$$
+```math
+\varepsilon_* = \frac{1}{2 N_e^2}
+```
 
 Therefore:
 
-$$\boxed{r = 16 \varepsilon_* = \frac{16}{2 N_e^2} = \frac{8}{N_e^2}}$$
+```math
+\boxed{r = 16 \varepsilon_* = \frac{16}{2 N_e^2} = \frac{8}{N_e^2}}
+```
 
 This is the standard result for p = 2 hilltop inflation (see, e.g., Martin, Ringeval, and Vennin 2014, "Encyclopædia Inflationaris," arXiv:1303.3787, §4.1.4). The framework invokes it directly from its derived potential shape — no new machinery, no tuning.
 
 With N_e = 60 (see §12.43.3 below for the structural identification):
 
-$$r = \frac{8}{60^2} = \frac{8}{3600} = \frac{1}{450} = \frac{2}{30^2} \approx 2.22 \times 10^{-3}$$
+```math
+r = \frac{8}{60^2} = \frac{8}{3600} = \frac{1}{450} = \frac{2}{30^2} \approx 2.22 \times 10^{-3}
+```
 
 ---
 
@@ -6109,13 +6440,17 @@ Framework stakes its inflation-sector credibility on `~2σ` LiteBIRD detection o
 ### 12.44.1 Reformulation
 
 Define v⃗ = (√m_e, √m_μ, √m_τ). Then:
-$$Q = \frac{|\vec{v}|^2}{(\vec{v}\cdot\vec{1})^2} = \frac{1}{3\cos^2\theta}$$
+```math
+Q = \frac{|\vec{v}|^2}{(\vec{v}\cdot\vec{1})^2} = \frac{1}{3\cos^2\theta}
+```
 where θ is the angle between v̂ and 1̂ = (1,1,1)/√3. Q = 2/3 ⟺ cos²θ = 1/2 ⟺ **θ = π/4**.
 
 ### 12.44.2 Identification with the FS Half-Angle
 
 From §12.34, the vacuum sits at v₀ = π/2. The FS overlap along the radial geodesic is I(ρ,s₀) = cos²(ρ/2). At v₀:
-$$I(v_0,s_0) = \cos^2(\pi/4) = 1/2 = I_{\min}$$
+```math
+I(v_0,s_0) = \cos^2(\pi/4) = 1/2 = I_{\min}
+```
 
 The half-angle π/4 is the angle at which the FS overlap reaches its minimum at the vacuum. **This is the same π/4 that appears in Koide's relation.**
 
@@ -6125,7 +6460,9 @@ The charged leptons acquire mass through coupling to the FS geometry via the Bor
 
 ### 12.44.4 The Theorem
 
-$$\boxed{Q_{\text{Koide}} = \frac{1}{3\cos^2(\pi/4)} = \frac{2}{3}}$$
+```math
+\boxed{Q_{\text{Koide}} = \frac{1}{3\cos^2(\pi/4)} = \frac{2}{3}}
+```
 
 Derivation chain: FS half-angle (π/4) → I_min = 1/2 → cos²θ = 1/2 → Q = 2/3.
 
@@ -6136,7 +6473,9 @@ Measured (PDG 2025): Q = 0.666665 ± 5×10⁻⁶. Computed from m_e = 0.51099895
 ### 12.44.6 Prediction — Neutrino Koide Ratio
 
 The neutrino sector shares the coset geometry, so:
-$$Q_\nu = \frac{m_1+m_2+m_3}{(\sqrt{m_1}+\sqrt{m_2}+\sqrt{m_3})^2} = \frac{2}{3}$$
+```math
+Q_\nu = \frac{m_1+m_2+m_3}{(\sqrt{m_1}+\sqrt{m_2}+\sqrt{m_3})^2} = \frac{2}{3}
+```
 
 Testable by DUNE/PTOLEMY/cosmological Σm_ν by mid-2030s. Deviation beyond 10⁻³ falsifies the shared-coset identification.
 
@@ -6166,21 +6505,29 @@ Therefore: **C₃-invariance of the lepton-generating dynamics ⟺ the three lep
 
 The charged leptons (e, μ, τ) are identified with the three spatial pNGB flavor modes in the framework's SM gauge identification (§12.45 — SU(2)_L couples to the left-handed lepton doublet, whose three generations correspond to the three pNGB flavors). Under C₃ rotation of the spatial generators, the flavor indices cyclically permute:
 
-$$C_3: (e, \mu, \tau) \to (\mu, \tau, e) \to (\tau, e, \mu)$$
+```math
+C_3: (e, \mu, \tau) \to (\mu, \tau, e) \to (\tau, e, \mu)
+```
 
 Therefore the three charged leptons form a **C₃ orbit**, and any C₃-invariant direction in flavor space corresponds to the democracy axis 1̂.
 
 **Step 3 — The angle π/4 follows from the FS half-angle at v₀ = π/2.** The mass-amplitude vector v⃗ = (√m_e, √m_μ, √m_τ) is the Born-rule projection of the coset wavefunction onto the three flavor eigenstates (§12.22): m_i = |⟨Ψ(v₀) | i⟩|² × (overall normalization). The Born-rule √I(ρ, s₀) evaluated at the vacuum v₀ = π/2 gives the amplitude factor:
 
-$$\sqrt{I(v_0, s_0)} = \cos(v_0/2) = \cos(\pi/4) = \frac{1}{\sqrt{2}}$$
+```math
+\sqrt{I(v_0, s_0)} = \cos(v_0/2) = \cos(\pi/4) = \frac{1}{\sqrt{2}}
+```
 
 The three components of v⃗ in the C₃-diagonal basis have equal magnitudes up to the C₃ phase (by C₃-symmetry of the underlying dynamics). Their projection onto the democracy axis 1̂ is:
 
-$$v̂ \cdot \hat{1} = \cos\theta \quad \text{with} \quad \cos\theta = \cos(v_0/2) = \cos(\pi/4) = \frac{1}{\sqrt{2}}$$
+```math
+v̂ \cdot \hat{1} = \cos\theta \quad \text{with} \quad \cos\theta = \cos(v_0/2) = \cos(\pi/4) = \frac{1}{\sqrt{2}}
+```
 
 Therefore $\theta = \pi/4$ exactly, giving $\cos^2\theta = 1/2$ and:
 
-$$\boxed{Q = \frac{1}{3\cos^2(\pi/4)} = \frac{1}{3 \cdot 1/2} = \frac{2}{3}}$$
+```math
+\boxed{Q = \frac{1}{3\cos^2(\pi/4)} = \frac{1}{3 \cdot 1/2} = \frac{2}{3}}
+```
 
 QED. ∎
 
@@ -6207,10 +6554,14 @@ All three steps use framework results established elsewhere. **The alignment is 
 **Audit finding: the structural identification is elegant, but Step 3's compression hides a non-trivial assumption about how C₃ symmetry translates to the observed hierarchical mass spectrum.**
 
 **The Koide relation reformulated.** The empirical Koide equality `Q = 2/3` is equivalent to the algebraic identity:
-$$\left(\sqrt{m_e} + \sqrt{m_\mu} + \sqrt{m_\tau}\right)^2 = \frac{3}{2}\left(m_e + m_\mu + m_\tau\right)$$
+```math
+\left(\sqrt{m_e} + \sqrt{m_\mu} + \sqrt{m_\tau}\right)^2 = \frac{3}{2}\left(m_e + m_\mu + m_\tau\right)
+```
 
 Defining $S = m_e + m_\mu + m_\tau$ and $P = \sqrt{m_e m_\mu} + \sqrt{m_e m_\tau} + \sqrt{m_\mu m_\tau}$, this simplifies to:
-$$P = \frac{S}{4}$$
+```math
+P = \frac{S}{4}
+```
 
 The framework must therefore force $P/S = 1/4$ from first principles to claim Koide as a derived theorem (rather than a post-hoc identification with the FS half-angle).
 
@@ -6228,7 +6579,9 @@ Neither corresponds to the observed Koide relation $P/S = 1/4$ with hierarchical
 **What the more careful statement would be.** The C₃-invariance of the underlying dynamics requires that the vacuum amplitudes in the C₃-diagonal basis have equal magnitudes. Transforming back to flavor basis produces masses $m_i = |\langle v_0 | i\rangle|^2$ that are NOT equal but are CONSTRAINED to satisfy $P/S = 1/4$ if and only if the C₃-diagonal amplitudes have specific phase relations compatible with the Born-rule projection at v₀ = π/2.
 
 Specifically, if the C₃-diagonal amplitudes are $(a, a\, e^{i\alpha}, a\, e^{i\beta})$ with equal magnitude $a$ and phases $(\alpha, \beta)$, then the flavor-basis amplitudes are:
-$$A_k = \frac{a}{\sqrt{3}}\left(1 + \omega^k e^{i\alpha} + \omega^{2k} e^{i\beta}\right), \quad k = 0, 1, 2$$
+```math
+A_k = \frac{a}{\sqrt{3}}\left(1 + \omega^k e^{i\alpha} + \omega^{2k} e^{i\beta}\right), \quad k = 0, 1, 2
+```
 
 The masses $m_k = |A_k|^2$ satisfy $P/S = 1/4$ **only for specific values of the phases (α, β)**. The framework must show that these specific phase values are forced by the Born-rule projection at v₀ = π/2 — this is what Step 3 compresses into a one-line assertion.
 
@@ -6290,7 +6643,9 @@ These remain framework contributions. The 9/10 grade reflects the subtle Step 3 
 
 **Net counting.** Coset structure `10 = 4 + 6` is rigorous (4 broken + 6 unbroken generators in so(4,1)). Framework's previous `1 + 3 + 6 = 10` decomposition with 6 labeled "dim(SU(3))" was **incorrect presentation** (dim(SU(3)) = 8). Correct accounting:
 
-$$\underbrace{1}_{\text{Trunk}} + \underbrace{3}_{\text{spatial pNGBs}} + \underbrace{3}_{\text{rotations } J_i} + \underbrace{3}_{\text{boosts } K_i} = 10$$
+```math
+\underbrace{1}_{\text{Trunk}} + \underbrace{3}_{\text{spatial pNGBs}} + \underbrace{3}_{\text{rotations } J_i} + \underbrace{3}_{\text{boosts } K_i} = 10
+```
 
 With Lie-algebra assignments: U(1)_Y = 1 generator (matches Trunk); SU(2)_L = 3 generators (matches spatial pNGB count); `N_C = 3` from 3 rotation generators (not dim(SU(3))). Closure at 10; `N_C = 3` appears naturally but **SU(3) as a group is external SM structure**. Consistent with §26.3b Item 9 and F4 honest statement: framework's gauge predictions combine framework integers with standard SM structure rather than deriving SM from scratch.
 
@@ -6332,7 +6687,9 @@ C1–C16 audit: **15 PASS | 1 BORDERLINE | 0 FAIL**. Weinberg angle: **9/10** (s
 
 **The derivation pathway.** The Furey/Dixon/Todorov construction embeds SM fermions in the Dixon algebra:
 
-$$\mathbb{A} = \mathbb{R} \otimes \mathbb{C} \otimes \mathbb{H} \otimes \mathbb{O} \quad (\text{real dim } 1 \times 2 \times 4 \times 8 = 64)$$
+```math
+\mathbb{A} = \mathbb{R} \otimes \mathbb{C} \otimes \mathbb{H} \otimes \mathbb{O} \quad (\text{real dim } 1 \times 2 \times 4 \times 8 = 64)
+```
 
 Under this construction (Furey 2014, 2018; Dixon 1994; Todorov-Dubois-Violette 2018):
 
@@ -6402,7 +6759,9 @@ These items are proposed as Option C Session #2.
 
 **Cl(6) ladder-operator construction (abstract).** Define 3 pairs of anticommuting fermionic ladder operators:
 
-$$\{\alpha_j, \alpha_k\} = 0, \quad \{\alpha_j, \alpha_k^\dagger\} = \delta_{jk}, \quad j, k = 1, 2, 3$$
+```math
+\{\alpha_j, \alpha_k\} = 0, \quad \{\alpha_j, \alpha_k^\dagger\} = \delta_{jk}, \quad j, k = 1, 2, 3
+```
 
 These generate Cl(6) via $\gamma_{2j-1} = \alpha_j + \alpha_j^\dagger$, $\gamma_{2j} = i(\alpha_j - \alpha_j^\dagger)$.
 
@@ -6497,7 +6856,9 @@ Despite these, the construction is peer-reviewed, verifiable, and multiply indep
 
 The undifferentiated potential is the integral of the Fubini-Study Seed overlap over the coset volume:
 
-$$U_0 = \int_\Omega I(\varphi, s_0)\, d\mu(\varphi)$$
+```math
+U_0 = \int_\Omega I(\varphi, s_0)\, d\mu(\varphi)
+```
 
 where I(φ, s₀) = |⟨Ψ(φ)|Ψ(s₀)⟩|² is the FS overlap with the Seed state and dμ is the SO(4,1)/SO(3,1) coset measure.
 
@@ -6505,15 +6866,21 @@ where I(φ, s₀) = |⟨Ψ(φ)|Ψ(s₀)⟩|² is the FS overlap with the Seed st
 
 Along the radial geodesic, I(ρ, s₀) = cos²(ρ/2) and the angular volume of the compact section is V_{S³} = 2π². The full integral:
 
-$$U_0 = 2\pi^2 \int_0^\pi \cos^2(\rho/2)\,\sin^3(\rho)\, d\rho$$
+```math
+U_0 = 2\pi^2 \int_0^\pi \cos^2(\rho/2)\,\sin^3(\rho)\, d\rho
+```
 
 Substituting u = ρ/2 and using sin(ρ) = 2 sin(u)cos(u):
 
-$$\int_0^\pi \cos^2(\rho/2)\sin^3(\rho)\,d\rho = 16\int_0^{\pi/2} \sin^3(u)\cos^5(u)\,du = 16 \cdot \tfrac{1}{2}B(2,3) = 8 \cdot \frac{\Gamma(2)\Gamma(3)}{\Gamma(5)} = 8 \cdot \frac{2}{24} = \frac{2}{3}$$
+```math
+\int_0^\pi \cos^2(\rho/2)\sin^3(\rho)\,d\rho = 16\int_0^{\pi/2} \sin^3(u)\cos^5(u)\,du = 16 \cdot \tfrac{1}{2}B(2,3) = 8 \cdot \frac{\Gamma(2)\Gamma(3)}{\Gamma(5)} = 8 \cdot \frac{2}{24} = \frac{2}{3}
+```
 
 Therefore:
 
-$$\boxed{U_0 = 2\pi^2 \cdot \frac{2}{3} = \frac{4\pi^2}{3}}$$
+```math
+\boxed{U_0 = 2\pi^2 \cdot \frac{2}{3} = \frac{4\pi^2}{3}}
+```
 
 ### 12.47.3 The Three Appearances of 2/3
 
@@ -6663,7 +7030,9 @@ All are strictly greater than dim(so(4, 1)) = 10, so even if any real form satis
 
 Steps 1–5 exhaust all real Lie algebras via the Cartan classification: simple (Steps 2–3), semi-simple non-simple (Step 4), and exceptional (Step 5). In every case except so(4, 1) at dim 10, at least one of (C1), (C2), (C3), or minimality fails. Therefore:
 
-$$\boxed{(g, v_0) \cong (\mathfrak{so}(4,1), \pi/2) \text{ is the unique minimal self-dual pair across all real Lie algebras}}$$
+```math
+\boxed{(g, v_0) \cong (\mathfrak{so}(4,1), \pi/2) \text{ is the unique minimal self-dual pair across all real Lie algebras}}
+```
 
 QED.
 
@@ -6697,7 +7066,9 @@ The only pair satisfying all three self-duality conditions at minimal dimension 
 
 ### 12.49.1 The Formula
 
-$$\boxed{M_R = m_{\rm Trunk}^{1/3} \times M_{\rm Pl}^{2/3}}$$
+```math
+\boxed{M_R = m_{\rm Trunk}^{1/3} \times M_{\rm Pl}^{2/3}}
+```
 
 Equivalently: ln M_R = (1/3) ln m_Trunk + (2/3) ln M_Pl. The exponents 1/3 and 2/3 are A²v₀² and (1−A²v₀²) — the coset metric partition at v₀ = π/2.
 
@@ -6709,13 +7080,17 @@ With the seesaw-effective scale `Y_ν H_inf = √(128/81) × 1.93×10¹³ GeV �
 
 ### 12.49.3 Corrected Neutrino Mass
 
-$$m_\nu^{(1)} = \frac{v_{\rm EW}^2}{2 M_R} = \frac{(246)^2}{2 \times 5.25\times10^{16}} \approx 0.58 \text{ meV}$$
+```math
+m_\nu^{(1)} = \frac{v_{\rm EW}^2}{2 M_R} = \frac{(246)^2}{2 \times 5.25\times10^{16}} \approx 0.58 \text{ meV}
+```
 
 ### 12.49.4 Structural Origin of the (1/3, 2/3) Exponents — dS₄ Conformal Weights
 
 **Derivation chain.** (1) `Λ_observed = 3H²` sets `λ = H²` (standard GR normalization). (2) At vacuum `v₀ = π/2`, the Goldstone mass formula gives `m²_G = 2λ|cos(2v₀)| = 2λ = 2H²` for the three spatial pNGBs (§12.11.4). (3) Standard harmonic analysis on `dS_d` (d = 4) for a scalar with `m² = 2H²` gives the two conformal weights
 
-$$\Delta_\pm = \frac{d-1}{2} \pm \sqrt{\left(\frac{d-1}{2}\right)^2 - \frac{m^2}{H^2}} = \frac{3}{2} \pm \sqrt{\frac{9}{4} - 2} = \frac{3}{2} \pm \frac{1}{2}$$
+```math
+\Delta_\pm = \frac{d-1}{2} \pm \sqrt{\left(\frac{d-1}{2}\right)^2 - \frac{m^2}{H^2}} = \frac{3}{2} \pm \sqrt{\frac{9}{4} - 2} = \frac{3}{2} \pm \frac{1}{2}
+```
 
 giving **integer weights `Δ_+ = 2`, `Δ_- = 1`**; sum `Δ_+ + Δ_- = 3 = d − 1` (standard shadow/dual pairing). (4) Normalized ratios as seesaw exponents: `Δ_-/(d−1) = 1/3`, `Δ_+/(d−1) = 2/3`.
 
@@ -6723,7 +7098,9 @@ giving **integer weights `Δ_+ = 2`, `Δ_- = 1`**; sum `Δ_+ + Δ_- = 3 = d − 
 
 **Mechanism partially open.** Plausible mechanism: standard dS/CFT holographic renormalization — when a boundary operator has two possible quantizations (`Δ_+` source / `Δ_-` VEV), the EFT coefficient picks up weights `Δ_±/(d−1)` for UV/IR contributions. Extracting the Weinberg dim-5 operator coefficient via holographic matching with both quantizations weighted gives
 
-$$\log M_R = \frac{\Delta_-}{d-1} \log m_{\rm Trunk} + \frac{\Delta_+}{d-1} \log M_{\rm Pl} = \frac{1}{3} \log m_{\rm Trunk} + \frac{2}{3} \log M_{\rm Pl}$$
+```math
+\log M_R = \frac{\Delta_-}{d-1} \log m_{\rm Trunk} + \frac{\Delta_+}{d-1} \log M_{\rm Pl} = \frac{1}{3} \log m_{\rm Trunk} + \frac{2}{3} \log M_{\rm Pl}
+```
 
 This mechanism is standard in dS/CFT literature; explicit verification for the framework's specific pNGB spectrum and Weinberg operator remains the closure step.
 
@@ -6749,7 +7126,9 @@ Proton decay experiments (DUNE, Hyper-K) probe the GUT scale. Reflexivity predic
 
 At the unification scale where α₁ = α₂:
 
-$$\boxed{\sin^2\theta_W^{\rm GUT} = \frac{\dim(\text{SU}(2)_L)}{\dim(\text{SU}(3)_C)} = \frac{3}{8} = 0.375}$$
+```math
+\boxed{\sin^2\theta_W^{\rm GUT} = \frac{\dim(\text{SU}(2)_L)}{\dim(\text{SU}(3)_C)} = \frac{3}{8} = 0.375}
+```
 
 where 3 = spatial pNGBs (broken sector) and 8 = complexified Lorentz generators (unbroken sector).
 
@@ -6763,7 +7142,9 @@ The hypercharge normalization factor 3/5 = N_ν/(N_ν + 2) = (spatial pNGBs)/(sp
 
 One-loop SM running from H_inf = 1.93×10¹³ GeV with α_U⁻¹ ≈ 42.35 and Trunk threshold correction:
 
-$$\sin^2\theta_W(M_Z) \approx 0.231 \pm 0.003$$
+```math
+\sin^2\theta_W(M_Z) \approx 0.231 \pm 0.003
+```
 
 Measured: 0.23122 ± 0.00004. **Agreement: sub-1%.** ✓
 
@@ -6793,7 +7174,9 @@ Error in §12.45.2 explicitly: at unification (`α₁ = α₂`), the physical co
 
 ### 12.51.1 The Formula
 
-$$\boxed{\alpha_U^{-1} = 6 \times 7 = 42}$$
+```math
+\boxed{\alpha_U^{-1} = 6 \times 7 = 42}
+```
 
 where `6` = octahedron vertices = 2 × (spatial pNGBs), and `7` = Fano plane points = `rank(E₇)` = imaginary octonions.
 
@@ -6848,7 +7231,9 @@ Numerical match 0.55%; identification 6 × 7 = dim(Stab) × |b₃| uses existing
 ### 12.52.1 The Gauge Orbit Theorem — Seed Hypothesis
 
 **Theorem:** In a framework with discrete symmetry group G_D acting on the broken sector and exceptional algebra E containing the gauge structure:
-$$\alpha_U^{-1} = |\text{orbits}(G_D)| \times \text{rank}(E)$$
+```math
+\alpha_U^{-1} = |\text{orbits}(G_D)| \times \text{rank}(E)
+```
 
 **In Reflexivity:** |octahedral orbits on spatial pNGBs| = 6, rank(E₇) = 7, giving α_U⁻¹ = 42.
 
@@ -6881,7 +7266,9 @@ Solving `α_i⁻¹(μ_branch) = 42` with SM one-loop running: `μ_branch(α₁) 
 **Tetrahedral ratio:** μ(α₁)/μ(α₂) = 4.011 ≈ 4 = tetrahedron vertices (0.28% match).
 
 **Structural identification:**
-$$\mu_{\rm branch}(\alpha_1) = H_{\inf}, \qquad \mu_{\rm branch}(\alpha_2) = H_{\inf}/4$$
+```math
+\mu_{\rm branch}(\alpha_1) = H_{\inf}, \qquad \mu_{\rm branch}(\alpha_2) = H_{\inf}/4
+```
 
 The U(1)_Y Trunk branches at the inflation scale. The SU(2)_L pNGB sector branches at H_inf/4, the tetrahedral step below.
 
@@ -6937,11 +7324,15 @@ Quark flavor count: N_f = N_gen × dim(SU(2)_L fund) = 3 × 2 = 6
 
 SU(3) one-loop beta coefficient (standard Yang-Mills + Dirac fermions in fundamental):
 
-$$|b_3| = \frac{11}{3}\,C_A(SU(3)) - \frac{2}{3}\,N_f = \frac{11}{3}(3) - \frac{2}{3}(6) = 11 - 4 = 7$$
+```math
+|b_3| = \frac{11}{3}\,C_A(SU(3)) - \frac{2}{3}\,N_f = \frac{11}{3}(3) - \frac{2}{3}(6) = 11 - 4 = 7
+```
 
 where C_A(SU(3)) = 3 is the SU(3) adjoint Casimir, a universal representation-theoretic fact once SU(3) is identified.
 
-$$\boxed{\alpha_U^{-1} = \dim(\text{Stab}(s_0)) \times |b_3| = 6 \times 7 = 42 \quad \text{[structural factorization]}}$$
+```math
+\boxed{\alpha_U^{-1} = \dim(\text{Stab}(s_0)) \times |b_3| = 6 \times 7 = 42 \quad \text{[structural factorization]}}
+```
 
 **Structural consistency check via the Platonic Palette (§25):** The palette's integer shell product `6 × 7 × 8 × 9 × 10 = 30,240` admits the factorization `42 × |S₆|` (gauge coupling times permutation group on the six conservation laws). Honest caveat: the shell product factorizes in multiple framework-meaningful ways — `|T| × 7! = 12 × 2520`, `|A₅| × 504 = 60 × 504`, `|O| × 1260 = 24 × 1260`, `|S_5| × 252 = 120 × 252`, each first factor being framework-native. The `42 × |S₆|` factorization is *selected post-hoc because 42 is the empirical target*, not uniquely forced by the shell product. Earlier language describing "two independent chains converge on 42" is retracted here as overstating the evidence: the RGE chain and the palette chain both reach 42 only once 42 is already chosen as the target. The palette factorization is a consistency observation (42 admits framework-native representation), not a second independent derivation.
 
@@ -6951,11 +7342,15 @@ $$\boxed{\alpha_U^{-1} = \dim(\text{Stab}(s_0)) \times |b_3| = 6 \times 7 = 42 \
 
 The factorization in 12.52.8 uses N_gen = 3 as one of its integer inputs. This input is **derived within the framework** (§12.23.3), not assumed:
 
-$$N_\nu = \dim(\text{SO}(4,1)/\text{SO}(3,1)) - 1 = 4 - 1 = 3$$
+```math
+N_\nu = \dim(\text{SO}(4,1)/\text{SO}(3,1)) - 1 = 4 - 1 = 3
+```
 
 The derivation chain: the coset SO(4,1)/SO(3,1) has 4 generators (1 temporal Trunk + 3 spatial pNGBs). After the Trunk reaches v₀ = π/2 and acquires its mass m²_Trunk = (128/81)H², only the 3 spatial pNGBs remain massless. Goldstone's theorem identifies each massless pNGB with one neutrino. In the Standard Model each fermion generation contains exactly one neutrino, so:
 
-$$N_\text{gen} = N_\nu = \dim(\text{coset}) - 1 = 3$$
+```math
+N_\text{gen} = N_\nu = \dim(\text{coset}) - 1 = 3
+```
 
 **v49 strengthening (§12.11.5 corollary).** The "−1" in dim(coset) − 1 = 3 is now structurally identified. The Killing form on the broken subspace m of so(4,1)/so(3,1) has signature (1, 3): exactly one timelike pNGB (M_{04}, boost-type, Killing-positive) and three spacelike pNGBs (M_{i4}, rotation-type, Killing-negative). The "−1" subtracts the timelike pNGB (identified with the Trunk / time direction), leaving three spacelike pNGBs which become the three generations. This replaces the dynamical argument ("Trunk acquires mass") with a pure Lie-algebra argument (Killing signature forces 1+3 split), giving N_gen = 3 a structural rather than dynamical basis. Both arguments agree; the v49 version is at the level of the coset's intrinsic Lie-algebra structure, independent of the inflaton dynamics. Rating stays at 10/10.
 
@@ -6980,8 +7375,12 @@ However, the specific value α_U⁻¹ = 42 *itself* is selected by RGE matching 
 
 **What the audit verified (genuine content).** With the three framework inputs (i) `α_U⁻¹ = 42` at the branching scales, (ii) `μ_branch(α_1) = H_inf`, (iii) `μ_branch(α_2) = H_inf/4`, the standard SM two-loop RGEs produce:
 
-$$\alpha_{EM}^{-1}(M_Z) = 127.902 \quad\text{vs measured}\quad 127.944 \quad(0.033\%)$$
-$$\sin^2\theta_W(M_Z) = 0.23118 \quad\text{vs measured}\quad 0.23122 \quad(0.017\%)$$
+```math
+\alpha_{EM}^{-1}(M_Z) = 127.902 \quad\text{vs measured}\quad 127.944 \quad(0.033\%)
+```
+```math
+\sin^2\theta_W(M_Z) = 0.23118 \quad\text{vs measured}\quad 0.23122 \quad(0.017\%)
+```
 
 This match is **not artefactual**. No Fubini-Study or Schur factor is missing; no coordinate-vs-canonical confusion occurs; the chain uses standard SM phenomenology throughout. Independent numerical reproduction confirms the quoted numerical precision.
 
@@ -7093,7 +7492,9 @@ The final step D₆ ⊕ A₁ ⊂ E₇ with branching 133 = (66, 1) + (1, 3) + (3
 
 **New observation — a second framework-native formula producing 42:**
 
-$$\alpha_U^{-1} = \frac{\dim(E_7) - \text{rank}(E_7)}{N_{\text{gen}}} = \frac{133 - 7}{3} = \frac{126}{3} = 42$$
+```math
+\alpha_U^{-1} = \frac{\dim(E_7) - \text{rank}(E_7)}{N_{\text{gen}}} = \frac{133 - 7}{3} = \frac{126}{3} = 42
+```
 
 Where N_gen = 3 is framework-derived (dim(coset) - 1 = 3 per §12.33.1). Equivalent to (2/3) × P(E₇) using the framework's universal 2/3 signature and P = number of positive roots.
 
@@ -7139,7 +7540,9 @@ Both use framework-native quantities. Both produce 42 for E₇. **They are diffe
 
 **The conditional resolved.** R1 Session #1 left the (𝕆) slot conditional on §12.45 octonionic closure. R1.5 shows this condition was too strong. Distinguishing two questions: (1) *Does SU(3)_C have natural octonionic structure?* — YES, rigorously (R1.5 result); (2) *Does Reflexivity derive SU(3)_C from its structure?* — **CLOSED via Option C** (§12.45.9, §12.45.10) using Furey Cl(6) construction on (ℍ, 𝕆) pairing (the §12.45 retraction about so(3,1)-complexification specifically stands, but a different derivation route succeeds). Question 1 resolves independently of question 2. Once SU(3)_C is identified as Reflexivity's color gauge group (by any route — §12.45 accepts this as SM input), SU(3)_C sits inside `Aut(𝕆) = G₂` as the stabilizer of any chosen imaginary octonion. Standard mathematical fact (Cartan 1894; Günaydin-Gürsey 1973; Baez-Huerta 2010):
 
-$$SU(3) = \text{Stab}_{G_2}(e_α) \quad \text{for any } e_α \in \text{Im}\ \mathbb{O}$$
+```math
+SU(3) = \text{Stab}_{G_2}(e_α) \quad \text{for any } e_α \in \text{Im}\ \mathbb{O}
+```
 
 Under this canonical embedding, dim(SU(3)) = 8 is *not* merely dimensionally matched to dim_ℝ(𝕆) = 8 — it reflects SU(3)'s specific role as the octonionic automorphism subgroup preserving one imaginary direction.
 
@@ -7149,7 +7552,9 @@ Under this canonical embedding, dim(SU(3)) = 8 is *not* merely dimensionally mat
 
 Consequence for Reflexivity:
 
-$$\boxed{\text{rank}(E_7) = 7 = \dim_{\mathbb{R}}(\text{Im}\ \mathbb{O})}$$
+```math
+\boxed{\text{rank}(E_7) = 7 = \dim_{\mathbb{R}}(\text{Im}\ \mathbb{O})}
+```
 
 **This is not numerical coincidence — it is structural.** E₇'s rank *is* the imaginary-octonion dimension. Wikipedia's E₇ article confirms this via the "quateroctonionic projective plane" construction.
 
@@ -7167,7 +7572,9 @@ Specifically for |b₃|: if SU(3)_C is octonionically grounded (SU(3) ⊂ Aut(�
 
 **Reformulation of α_U⁻¹ = 42 with octonionic foundation.** Combining R1 + R1.5:
 
-$$\alpha_U^{-1} = \text{rank}(E_7) \times \dim(\text{Stab}) = \dim_{\mathbb{R}}(\text{Im}\ \mathbb{O}) \times \dim(\mathfrak{so}(3,1)) = 7 \times 6 = 42$$
+```math
+\alpha_U^{-1} = \text{rank}(E_7) \times \dim(\text{Stab}) = \dim_{\mathbb{R}}(\text{Im}\ \mathbb{O}) \times \dim(\mathfrak{so}(3,1)) = 7 \times 6 = 42
+```
 
 The **7 is octonionic** (via the (𝕆) slot and Karsch-Koca root construction). The **6 is Lorentzian** (dim(Stab) from Killing-form signature in §12.11.5). The only remaining ansatz is the **product structure itself** — R1.6's open item.
 
@@ -7200,17 +7607,23 @@ The **7 is octonionic** (via the (𝕆) slot and Karsch-Koca root construction).
 
 Kostant's classical result for simply-laced simple Lie algebras states:
 
-$$\dim(\mathfrak{g}) = \text{rank}(\mathfrak{g}) \times (h^\vee(\mathfrak{g}) + 1)$$
+```math
+\dim(\mathfrak{g}) = \text{rank}(\mathfrak{g}) \times (h^\vee(\mathfrak{g}) + 1)
+```
 
 Verified across simply-laced cases: A_n, D_n, E_6, E_7, E_8 all satisfy. Equivalently:
 
-$$\dim(\mathfrak{g}) - \text{rank}(\mathfrak{g}) = \text{rank}(\mathfrak{g}) \times h^\vee(\mathfrak{g})$$
+```math
+\dim(\mathfrak{g}) - \text{rank}(\mathfrak{g}) = \text{rank}(\mathfrak{g}) \times h^\vee(\mathfrak{g})
+```
 
 **Consequence for Reflexivity's candidate formulas:**
 
 R1.6 Session #1 identified a "second framework-native formula" $\alpha_U^{-1} = (\dim - \text{rank})/N_{\text{gen}} = 126/3 = 42$. Session #2 shows this **is the same formula** as the Casimir-ratio form:
 
-$$\alpha_U^{-1} = \text{rank}(E_7) \times \frac{h^\vee(E_7)}{h^\vee(\mathfrak{so}(4,1))} = 7 \times \frac{18}{3} = 42$$
+```math
+\alpha_U^{-1} = \text{rank}(E_7) \times \frac{h^\vee(E_7)}{h^\vee(\mathfrak{so}(4,1))} = 7 \times \frac{18}{3} = 42
+```
 
 for simply-laced G with $N_{\text{gen}} = 3 = h^\vee(\mathfrak{so}(4,1))$. The equivalence follows from Kostant's identity applied to E₇.
 
@@ -7392,7 +7805,9 @@ With Option B's uniqueness result added to prior findings, Reflexivity now has t
 
 At the vacuum $\varphi = v_0$: $\partial_\mu\varphi = 0$, giving:
 
-$$T_{\mu\nu}\big|_{\varphi=v_0} = g_{\mu\nu}\,b_t(v_0) = -\rho_\Lambda\,g_{\mu\nu}$$
+```math
+T_{\mu\nu}\big|_{\varphi=v_0} = g_{\mu\nu}\,b_t(v_0) = -\rho_\Lambda\,g_{\mu\nu}
+```
 
 This is exactly the Lorentz-invariant vacuum form $T_{\mu\nu}^{\rm vac} = -\rho_{\rm vac}\,g_{\mu\nu}$ with $w = -1$. The vacuum energy density $\rho_\Lambda = b_t(v_0) \propto H^2$ (from Weyl consistency: $b_t \propto R \propto H^2$ in de Sitter). SM vacuum energies are sequestered — they affect H through the Friedmann equation but do NOT shift $\rho_\Lambda$ directly (§12.31, mechanism B).
 
@@ -7428,7 +7843,9 @@ Independent measured inputs used: T₀ (CMB), Ω_r (Planck ΛCDM), Ω_Λ (Planck
 
 #### 6. Numerical Target — Do We Hit It?
 
-$$\lambda_{\rm obs} = 2.387\times10^{-121}\,M_{\rm Pl}^2 \equiv \rho_\Lambda \approx (2.4\times10^{-3}\,{\rm eV})^4$$
+```math
+\lambda_{\rm obs} = 2.387\times10^{-121}\,M_{\rm Pl}^2 \equiv \rho_\Lambda \approx (2.4\times10^{-3}\,{\rm eV})^4
+```
 
 **Result:** $\lambda_{\rm calc} = \Omega_\Lambda H_0^2 = 2.387\times10^{-121}\,M_{\rm Pl}^2$ — exact match using measured Ω_Λ.
 
@@ -7957,7 +8374,9 @@ Readers who want to verify the strongest results directly should start with Sect
 
 The framework's ε_CP formula (§12.25.2):
 
-$$\varepsilon_{CP} = \frac{g_{\rm eff}^4 \sin(2\theta_{CA})}{16\pi (T_{\rm reh}/m_{\rm Trunk})^2} = 7.71 \times 10^{-7}$$
+```math
+\varepsilon_{CP} = \frac{g_{\rm eff}^4 \sin(2\theta_{CA})}{16\pi (T_{\rm reh}/m_{\rm Trunk})^2} = 7.71 \times 10^{-7}
+```
 
 is stated as "the infrared-regulated CP asymmetry from the one-loop self-energy" for a scalar decaying to massless final states at T_reh. Two of three (S)-rated items have been closed structurally (§12.25.13 via F1-C Session #1):
 - **Closed.** N_eff = 3/2 derived from N_gen × decay kinematics
@@ -7991,7 +8410,9 @@ The coset SO(4,1)/SO(3,1) has:
 
 The framework's Self-Duality Principle (§12.48) derives the unique vacuum:
 
-$$v_0 = \pi/2$$
+```math
+v_0 = \pi/2
+```
 
 This is the midpoint of the coset direction (not the origin). The CCWZ Lagrangian must be expanded around this specific value.
 
@@ -7999,15 +8420,21 @@ This is the midpoint of the coset direction (not the origin). The CCWZ Lagrangia
 
 Using a coset representative:
 
-$$\xi(\phi) = \exp\left[i\phi^a X^a / f\right]$$
+```math
+\xi(\phi) = \exp\left[i\phi^a X^a / f\right]
+```
 
 where f is the decay constant (framework-related to H_inf). At v₀ = π/2:
 
-$$\xi(v_0) = \exp[i\pi X^0 / 2f]$$
+```math
+\xi(v_0) = \exp[i\pi X^0 / 2f]
+```
 
 The coset metric $G_{ab}(\phi)$ is the Fubini-Study metric on the coset (§12.11 in framework):
 
-$$\mathcal{L}_{\rm kin} = \frac{f^2}{2} G_{ab}(\phi) \partial_\mu \phi^a \partial^\mu \phi^b$$
+```math
+\mathcal{L}_{\rm kin} = \frac{f^2}{2} G_{ab}(\phi) \partial_\mu \phi^a \partial^\mu \phi^b
+```
 
 At v₀ = π/2, the metric components are (framework §12.22):
 - $G_{00}^{FS}(v_0) = 9/4$ (Trunk radial)
@@ -8030,7 +8457,9 @@ The framework identifies (§12.33.3):
 
 The relevant 3-point vertex for Trunk decay:
 
-$$\mathcal{L}_{\rm Yuk} \supset g_{\rm eff}\, \text{Trunk} \cdot \bar\ell_L \cdot H + \text{h.c.}$$
+```math
+\mathcal{L}_{\rm Yuk} \supset g_{\rm eff}\, \text{Trunk} \cdot \bar\ell_L \cdot H + \text{h.c.}
+```
 
 with g_eff = g_GUT/2 = 0.2802 (framework's §12.22.2).
 
@@ -8084,7 +8513,9 @@ with the CP phase entering through the Yukawa coupling structure. At finite T, t
 **Step 1 — Write the CCWZ Lagrangian on the Schwinger-Keldysh contour.**
 
 Following Jensen et al. 2020, extend the framework's CCWZ Lagrangian to the closed-time-path:
-$$\mathcal{L}_{\rm SK} = \mathcal{L}[\phi_+] - \mathcal{L}[\phi_-] + \text{IR regulator}$$
+```math
+\mathcal{L}_{\rm SK} = \mathcal{L}[\phi_+] - \mathcal{L}[\phi_-] + \text{IR regulator}
+```
 
 with thermal initial conditions at temperature T_reh.
 
@@ -8103,16 +8534,22 @@ Candidate interpretation: the thermal IR regulator T_reh is the effective cutoff
 **Step 3 — Compute Im[Σ(p²=m_Trunk²)] at finite T.**
 
 Using the Garny et al. formalism, the imaginary part from thermal self-energy is:
-$$\text{Im}[\Sigma(p)] \propto g_{\rm eff}^4 \int \frac{d^3k}{(2\pi)^3}\, n_B(\omega_k)\, [\text{phase space factor}]\, \sin(2\theta_{CA})$$
+```math
+\text{Im}[\Sigma(p)] \propto g_{\rm eff}^4 \int \frac{d^3k}{(2\pi)^3}\, n_B(\omega_k)\, [\text{phase space factor}]\, \sin(2\theta_{CA})
+```
 
 where $n_B$ is the thermal distribution. The phase space factor depends on the loop topology and the external momentum p² = m_Trunk².
 
 **Step 4 — Extract the CP asymmetry.**
 
-$$\varepsilon_{CP} = \frac{2\, \text{Im}[\Sigma \cdot \text{tree}^*]}{|\text{tree}|^2}$$
+```math
+\varepsilon_{CP} = \frac{2\, \text{Im}[\Sigma \cdot \text{tree}^*]}{|\text{tree}|^2}
+```
 
 The result should have structure:
-$$\varepsilon_{CP} = \frac{g^4 \sin(2\theta_{CA})}{16\pi} \cdot f(m/T)$$
+```math
+\varepsilon_{CP} = \frac{g^4 \sin(2\theta_{CA})}{16\pi} \cdot f(m/T)
+```
 
 where $f(m/T)$ is the thermal kinematic factor. The framework's quoted form is $f(m/T) = (m/T)^2$; rigorous verification could confirm, modify, or extend this.
 
@@ -8179,7 +8616,9 @@ Calculation opens a different closure path if:
 
 ##### Framework Lagrangian structure (§12.17, §12.38.2)
 
-$$S = \int d^4x \sqrt{-g}\left[\frac{M_{\rm Pl}^2}{2}R + \frac{1}{2}G_{ab}(\varphi)\partial_\mu\varphi^a\partial^\mu\varphi^b + b_t(\varphi) - \lambda(I_{\min} - I(\varphi, s_0))\right]$$
+```math
+S = \int d^4x \sqrt{-g}\left[\frac{M_{\rm Pl}^2}{2}R + \frac{1}{2}G_{ab}(\varphi)\partial_\mu\varphi^a\partial^\mu\varphi^b + b_t(\varphi) - \lambda(I_{\min} - I(\varphi, s_0))\right]
+```
 
 with $I(\varphi, s_0)$ the Fubini-Study distance from $\varphi$ to the reference vacuum $s_0$.
 
@@ -8187,7 +8626,9 @@ with $I(\varphi, s_0)$ the Fubini-Study distance from $\varphi$ to the reference
 
 The Trunk-lepton-Higgs coupling giving rise to ε_CP is:
 
-$$\mathcal{L}_{\rm Yuk} \supset Y_\nu \cdot \text{Trunk} \cdot \bar\ell_L \cdot H$$
+```math
+\mathcal{L}_{\rm Yuk} \supset Y_\nu \cdot \text{Trunk} \cdot \bar\ell_L \cdot H
+```
 
 with Y_ν² = 128/81 × (framework factors) (§12.42).
 
@@ -8279,7 +8720,9 @@ Only Path F survives as a structural reformulation (Casimir-ratio identity h^v(G
 ##### Mathematical target
 
 Derive the relationship:
-$$\alpha_U^{-1} = \text{rank}(E_7) \cdot \dim(\mathfrak{so}(3,1)) = 7 \cdot 6 = 42$$
+```math
+\alpha_U^{-1} = \text{rank}(E_7) \cdot \dim(\mathfrak{so}(3,1)) = 7 \cdot 6 = 42
+```
 
 as arising from a specific physical principle, not as a numerical coincidence or ansatz fit to the SM RGE.
 
@@ -8338,7 +8781,9 @@ This suggests the formula has some universality beyond E₇, which is either:
 **Approach:** The framework's Berry-connection formalism (Stabilizer Theorem §12.9) gives $Q_A = \langle\Psi, A\Psi\rangle$ for Stabilizer operators. A trace identity over Stabilizer generators could produce the dim(Stab) factor, while rank(E₇) could emerge from the enveloping algebra's Cartan structure.
 
 **Specific question:** Is there an identity of the form
-$$\alpha_U^{-1} = \text{tr}_{E_7}[\text{some operator}] \cdot \text{tr}_{\rm Stab}[\text{some other operator}]$$
+```math
+\alpha_U^{-1} = \text{tr}_{E_7}[\text{some operator}] \cdot \text{tr}_{\rm Stab}[\text{some other operator}]
+```
 that naturally evaluates to 42?
 
 **Literature gap:** No known prior work on Berry-connection traces in gauge-coupling context.
@@ -8417,10 +8862,18 @@ Master equation: {Q_A, H_S} = 0 (Stabilizer Theorem)
 Master action: $S = \int d^4x \sqrt{-g} \mathcal{L}$ with Reflexivity coset + Lagrange-multiplier potential
 
 Relevant formulas for specialist:
-$$\alpha_U^{-1} = 42 \quad (\text{phenomenological from SM RGE matching: 42.4})$$
-$$\alpha_U^{-1} = 7 \times 6 = \text{rank}(E_7) \cdot \dim(\mathfrak{so}(3,1))$$  
-$$\alpha_U^{-1} = (\dim(E_7) - \text{rank}(E_7))/N_{\rm gen} = 126/3$$
-$$\dim(G)/(h^v + 1) = \text{rank}(G) \quad \text{(Kostant's formula, simply-laced)}$$
+```math
+\alpha_U^{-1} = 42 \quad (\text{phenomenological from SM RGE matching: 42.4})
+```
+```math
+\alpha_U^{-1} = 7 \times 6 = \text{rank}(E_7) \cdot \dim(\mathfrak{so}(3,1))
+```
+```math
+\alpha_U^{-1} = (\dim(E_7) - \text{rank}(E_7))/N_{\rm gen} = 126/3
+```
+```math
+\dim(G)/(h^v + 1) = \text{rank}(G) \quad \text{(Kostant's formula, simply-laced)}
+```
 
 ---
 
