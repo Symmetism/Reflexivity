@@ -10,11 +10,11 @@ The framework is internally consistent, testable, and organized for external tec
 
 ## Who produced it
 
-A focused research program conducted 2025–2026. The document is the complete technical statement of that work with April 2026 observational data.
+A focused research program conducted 2024–2026. The document is the complete technical statement of that work with April 2026 observational data.
 
 ## When
 
-- **Primary development:** 2025–2026
+- **Primary development:** 2024–2026
 - **Observational cutoff:** 2026-04-20
 - **Release:** April 2026 (v0.42, first public release candidate)
 - **Versioning note:** `v0.42` indicates pre-1.0 status (framework has identified open specialist items documented in §31.11 and §31.12). The `42` is the framework's central dimensionless-parameter value (`α_U⁻¹ = 42`); the pre-1.0 prefix signals that not all structural closures are complete.
